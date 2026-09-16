@@ -1,0 +1,666 @@
+waste_log_id,log_date,restaurant_id,restaurant_name,ingredient_id,ingredient_name,category,waste_reason,waste_qty,unit_of_measure,unit_cost,waste_cost_usd
+WST-7001,13-11-2025,RST-100,The Downtown Bistro,ING-032,Espresso Beans,Beverages & Draft,Overcooked / Burnt,86.77,oz,0.6,52.06
+WST-7002,14-01-2025,RST-100,The Downtown Bistro,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,8.42,lbs,6.5,54.73
+WST-7003,18-05-2025,RST-107,Pacific Coast Diner,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,14.39,lbs,6.5,93.53
+WST-7004,21-12-2025,RST-102,Harborfront Seafood,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,1.15,lbs,12,13.8
+WST-7005,26-07-2025,RST-100,The Downtown Bistro,ING-018,Roma Tomatoes,Produce,Prep Waste / Trimming,4.32,lbs,1.5,6.48
+WST-7006,11-06-2025,RST-109,Bayview Sushi & Raw,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,15.88,lbs,16,254.08
+WST-7007,17-04-2025,RST-105,Loop Craft Kitchen,ING-004,Pork Shoulder,Meat & Poultry,Expired / Spoiled,5.12,lbs,3.8,19.46
+WST-7008,31-10-2025,RST-101,Uptown Flame & Grill,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,41.83,units,0.45,18.82
+WST-7009,11-08-2025,RST-103,Beacon Hill Cafe,ING-017,Idaho Russet Potatoes,Produce,,9.46,lbs,0.85,8.04
+WST-7010,20-11-2025,RST-105,Loop Craft Kitchen,ING-015,Hass Avocado,Produce,Overcooked / Burnt,21.54,units,1.25,26.92
+WST-7011,20-02-2025,RST-107,Pacific Coast Diner,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,7.62,lbs,12,91.44
+WST-7012,16-04-2025,RST-101,Uptown Flame & Grill,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,44.94,fl oz,0.15,6.74
+WST-7013,25-04-2025,RST-110,Metro Garden Salad,ING-013,Unsalted Butter,Dairy & Cheese,Overcooked / Burnt,5.62,lbs,3.8,21.36
+WST-7014,02-07-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Expired / Spoiled,19.08,lbs,0.9,17.17
+WST-7015,14-03-2025,RST-105,Loop Craft Kitchen,ING-022,Spinach,Produce,Expired / Spoiled,10.14,lbs,2.2,22.31
+WST-7016,08-08-2025,RST-105,Loop Craft Kitchen,ING-003,Ribeye Steak,Meat & Poultry,Customer Return / Quality,2.7,lbs,14.5,39.15
+WST-7017,25-11-2025,RST-110,Metro Garden Salad,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,22.38,lbs,4.5,100.71
+WST-7018,14-08-2025,RST-103,Beacon Hill Cafe,ING-015,Hass Avocado,Produce,Expired / Spoiled,36.6,units,1.25,45.75
+WST-7019,23-11-2025,RST-100,The Downtown Bistro,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,11.79,lbs,6.5,76.63
+WST-7020,26-09-2025,RST-106,Sunset Strip Burgers,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,16.56,lbs,9.5,157.32
+WST-7021,18-05-2025,RST-108,Soma Tapas Bar,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,1.27,quarts,3.2,4.06
+WST-7022,29-09-2025,RST-101,Uptown Flame & Grill,ING-015,Hass Avocado,Produce,Prep Waste / Trimming,36.45,units,1.25,45.56
+WST-7023,20-07-2025,RST-109,Bayview Sushi & Raw,ING-010,Aged Cheddar Slices,Dairy & Cheese,Prep Waste / Trimming,6.73,lbs,5.1,34.32
+WST-7024,31-05-2025,RST-111,Pike Place Italian,ING-018,Roma Tomatoes,Produce,Dropped / Damaged,2.46,lbs,1.5,3.69
+WST-7025,30-01-2025,RST-109,Bayview Sushi & Raw,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,14.26,lbs,4.2,59.89
+WST-7026,11-08-2025,RST-103,Beacon Hill Cafe,ING-012,Heavy Cream,Dairy & Cheese,Customer Return / Quality,11.61,quarts,3.2,37.15
+WST-7027,26-12-2025,RST-100,The Downtown Bistro,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,34.76,lbs,4.2,145.99
+WST-7028,24-11-2025,RST-105,Loop Craft Kitchen,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Customer Return / Quality,21.32,fl oz,0.4,8.53
+WST-7029,15-01-2025,RST-101,Uptown Flame & Grill,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,7.88,quarts,3.2,25.22
+WST-7030,03-11-2025,RST-107,Pacific Coast Diner,ING-019,Red Onions,Produce,Overcooked / Burnt,9.26,lbs,0.9,8.33
+WST-7031,09-04-2025,RST-105,Loop Craft Kitchen,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,8.69,lbs,14.5,126
+WST-7032,04-03-2025,RST-108,Soma Tapas Bar,ING-024,Sourdough Loaf,Bakery,Overcooked / Burnt,57.87,units,2.5,144.67
+WST-7033,12-10-2025,RST-109,Bayview Sushi & Raw,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,3.07,lbs,3.8,11.67
+WST-7034,31-12-2025,RST-103,Beacon Hill Cafe,ING-014,Parmesan Reggiano,Dairy & Cheese,Customer Return / Quality,2.33,lbs,9.5,22.14
+WST-7035,31-08-2025,RST-107,Pacific Coast Diner,ING-015,Hass Avocado,Produce,Overcooked / Burnt,79.91,units,1.25,99.89
+WST-7036,25-07-2025,RST-106,Sunset Strip Burgers,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,46.91,fl oz,0.35,16.42
+WST-7037,11-02-2025,RST-100,The Downtown Bistro,ING-016,Romaine Lettuce,Produce,Expired / Spoiled,2.34,lbs,1.8,4.21
+WST-7038,04-01-2025,RST-105,Loop Craft Kitchen,ING-004,Pork Shoulder,Meat & Poultry,Expired / Spoiled,10.69,lbs,3.8,40.62
+WST-7039,10-09-2025,RST-103,Beacon Hill Cafe,ING-021,Wild Mushrooms,Produce,Overcooked / Burnt,6.59,lbs,6,39.54
+WST-7040,17-05-2025,RST-109,Bayview Sushi & Raw,ING-002,Chicken Breast,Meat & Poultry,Prep Waste / Trimming,12.72,lbs,4.2,53.42
+WST-7041,30-03-2025,RST-108,Soma Tapas Bar,ING-011,Mozzarella Cheese,Dairy & Cheese,Customer Return / Quality,2.87,lbs,4.5,12.92
+WST-7042,20-03-2025,RST-110,Metro Garden Salad,ING-022,Spinach,Produce,Overcooked / Burnt,3.37,lbs,2.2,7.41
+WST-7043,12-07-2025,RST-109,Bayview Sushi & Raw,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,15.74,lbs,0.85,13.38
+WST-7044,16-07-2025,RST-109,Bayview Sushi & Raw,ING-006,Atlantic Salmon Fillet,Seafood,Expired / Spoiled,13.74,lbs,11.5,158.01
+WST-7045,08-01-2025,RST-107,Pacific Coast Diner,ING-009,Lobster Tail,Seafood,Customer Return / Quality,11.77,lbs,22,258.94
+WST-7046,22-12-2025,RST-100,The Downtown Bistro,ING-016,Romaine Lettuce,Produce,Prep Waste / Trimming,23.52,lbs,1.8,42.34
+WST-7047,08-06-2025,RST-110,Metro Garden Salad,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,3.63,lbs,0.85,3.09
+WST-7048,24-04-2025,RST-110,Metro Garden Salad,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,83.78,oz,0.6,50.27
+WST-7049,31-07-2025,RST-111,Pike Place Italian,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,3.7,lbs,4.2,15.54
+WST-7050,05-02-2025,RST-107,Pacific Coast Diner,ING-029,Balsamic Glaze,Condiments & Oils,Dropped / Damaged,66.87,fl oz,0.5,33.44
+WST-7051,05-07-2025,RST-100,The Downtown Bistro,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,23.68,lbs,16,378.88
+WST-7052,24-12-2025,RST-101,Uptown Flame & Grill,ING-010,Aged Cheddar Slices,Dairy & Cheese,Prep Waste / Trimming,15.99,lbs,5.1,81.55
+WST-7053,16-11-2025,RST-103,Beacon Hill Cafe,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,43.12,fl oz,0.4,17.25
+WST-7054,17-03-2025,RST-100,The Downtown Bistro,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,6.73,quarts,3.2,21.54
+WST-7055,12-01-2025,RST-101,Uptown Flame & Grill,ING-010,Aged Cheddar Slices,Dairy & Cheese,Customer Return / Quality,3.25,lbs,5.1,16.57
+WST-7056,08-02-2025,RST-109,Bayview Sushi & Raw,ING-017,Idaho Russet Potatoes,Produce,Dropped / Damaged,25.64,lbs,0.85,21.79
+WST-7057,09-10-2025,RST-111,Pike Place Italian,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,9.38,lbs,6,56.28
+WST-7058,18-06-2025,RST-110,Metro Garden Salad,ING-005,Ground Turkey,Meat & Poultry,Dropped / Damaged,17.97,lbs,4,71.88
+WST-7059,07-03-2025,RST-111,Pike Place Italian,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,4.97,lbs,4,19.88
+WST-7060,06-08-2025,RST-111,Pike Place Italian,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,26.55,lbs,4.2,111.51
+WST-7061,18-03-2025,RST-105,Loop Craft Kitchen,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,13.89,units,0.25,3.47
+WST-7062,09-07-2025,RST-107,Pacific Coast Diner,ING-022,Spinach,Produce,Prep Waste / Trimming,7.48,lbs,2.2,16.46
+WST-7063,10-10-2025,RST-109,Bayview Sushi & Raw,ING-005,Ground Turkey,Meat & Poultry,Prep Waste / Trimming,21.77,lbs,4,87.08
+WST-7064,19-08-2025,RST-109,Bayview Sushi & Raw,ING-032,Espresso Beans,Beverages & Draft,Freezer Malfunction / Bulk Spoilage,963.02,oz,0.6,577.81
+WST-7065,29-04-2025,RST-101,Uptown Flame & Grill,ING-006,Atlantic Salmon Fillet,Seafood,Prep Waste / Trimming,1.42,lbs,11.5,16.33
+WST-7066,21-12-2025,RST-102,Harborfront Seafood,ING-005,Ground Turkey,Meat & Poultry,Overcooked / Burnt,11.88,lbs,4,47.52
+WST-7067,14-08-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,9.15,lbs,0.85,7.78
+WST-7068,02-06-2025,RST-110,Metro Garden Salad,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,8.16,lbs,3.8,31.01
+WST-7069,05-06-2025,RST-104,Midtown Smokehouse,ING-025,Tortilla Wraps,Bakery,Overcooked / Burnt,103.9,units,0.25,25.98
+WST-7070,19-03-2025,RST-102,Harborfront Seafood,ING-006,Atlantic Salmon Fillet,Seafood,Prep Waste / Trimming,8.47,lbs,11.5,97.41
+WST-7071,25-11-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Dropped / Damaged,6.47,lbs,0.9,5.82
+WST-7072,30-03-2025,RST-108,Soma Tapas Bar,ING-004,Pork Shoulder,Meat & Poultry,Prep Waste / Trimming,5.28,lbs,3.8,20.06
+WST-7073,08-05-2025,RST-107,Pacific Coast Diner,ING-021,Wild Mushrooms,Produce,Overcooked / Burnt,10.29,lbs,6,61.74
+WST-7074,07-03-2025,RST-101,Uptown Flame & Grill,ING-029,Balsamic Glaze,Condiments & Oils,Prep Waste / Trimming,9.57,fl oz,0.5,4.79
+WST-7075,05-02-2025,RST-105,Loop Craft Kitchen,ING-018,Roma Tomatoes,Produce,Customer Return / Quality,18.16,lbs,1.5,27.24
+WST-7076,19-01-2025,RST-110,Metro Garden Salad,ING-008,Yellowfin Tuna,Seafood,Customer Return / Quality,18.89,lbs,16,302.24
+WST-7077,21-03-2025,RST-103,Beacon Hill Cafe,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,106.02,glasses,2.5,265.05
+WST-7078,28-11-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Customer Return / Quality,11.44,lbs,0.9,10.3
+WST-7079,11-02-2025,RST-108,Soma Tapas Bar,ING-028,Soy Sauce,Condiments & Oils,Customer Return / Quality,62.61,fl oz,0.15,9.39
+WST-7080,19-08-2025,RST-104,Midtown Smokehouse,ING-022,Spinach,Produce,Expired / Spoiled,8.13,lbs,2.2,17.89
+WST-7081,14-09-2025,RST-101,Uptown Flame & Grill,ING-016,Romaine Lettuce,Produce,Overcooked / Burnt,12.87,lbs,1.8,23.17
+WST-7082,15-02-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,Expired / Spoiled,15.44,lbs,0.9,13.9
+WST-7083,23-03-2025,RST-100,The Downtown Bistro,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,62.01,fl oz,0.15,9.3
+WST-7084,07-12-2025,RST-111,Pike Place Italian,ING-010,Aged Cheddar Slices,Dairy & Cheese,Overcooked / Burnt,3.87,lbs,5.1,19.74
+WST-7085,29-04-2025,RST-111,Pike Place Italian,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,8.22,lbs,4.5,36.99
+WST-7086,28-06-2025,RST-110,Metro Garden Salad,ING-016,Romaine Lettuce,Produce,Overcooked / Burnt,2.25,lbs,1.8,4.05
+WST-7087,08-09-2025,RST-106,Sunset Strip Burgers,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,18.02,quarts,3.2,57.66
+WST-7088,19-03-2025,RST-103,Beacon Hill Cafe,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,12.52,lbs,1.5,18.78
+WST-7089,23-01-2025,RST-101,Uptown Flame & Grill,ING-011,Mozzarella Cheese,Dairy & Cheese,Customer Return / Quality,12.63,lbs,4.5,56.84
+WST-7090,20-02-2025,RST-110,Metro Garden Salad,ING-010,Aged Cheddar Slices,Dairy & Cheese,Overcooked / Burnt,5.63,lbs,5.1,28.71
+WST-7091,24-03-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,7.5,lbs,0.85,6.38
+WST-7092,03-07-2025,RST-101,Uptown Flame & Grill,ING-016,Romaine Lettuce,Produce,Dropped / Damaged,3.98,lbs,1.8,7.16
+WST-7093,10-09-2025,RST-104,Midtown Smokehouse,ING-012,Heavy Cream,Dairy & Cheese,Overcooked / Burnt,8.66,quarts,3.2,27.71
+WST-7094,23-11-2025,RST-105,Loop Craft Kitchen,ING-022,Spinach,Produce,Dropped / Damaged,4.34,lbs,2.2,9.55
+WST-7095,09-02-2025,RST-107,Pacific Coast Diner,ING-024,Sourdough Loaf,Bakery,Dropped / Damaged,116.04,units,2.5,290.1
+WST-7096,03-04-2025,RST-109,Bayview Sushi & Raw,ING-026,Truffle Mayo,Condiments & Oils,Overcooked / Burnt,115.82,fl oz,0.35,40.54
+WST-7097,23-08-2025,RST-105,Loop Craft Kitchen,ING-015,Hass Avocado,Produce,Prep Waste / Trimming,32.85,units,1.25,41.06
+WST-7098,28-01-2025,RST-102,Harborfront Seafood,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,3.67,lbs,9.5,34.87
+WST-7099,22-12-2025,RST-100,The Downtown Bistro,ING-009,Lobster Tail,Seafood,Prep Waste / Trimming,5.13,lbs,22,112.86
+WST-7100,01-11-2025,RST-110,Metro Garden Salad,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,26.1,lbs,12,313.2
+WST-7101,06-07-2025,RST-109,Bayview Sushi & Raw,ING-010,Aged Cheddar Slices,Dairy & Cheese,Prep Waste / Trimming,8.51,lbs,5.1,43.4
+WST-7102,18-07-2025,RST-104,Midtown Smokehouse,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,9.13,lbs,9.5,86.74
+WST-7103,15-02-2025,RST-100,The Downtown Bistro,ING-022,Spinach,Produce,Expired / Spoiled,6.3,lbs,2.2,13.86
+WST-7104,22-03-2025,RST-101,Uptown Flame & Grill,ING-011,Mozzarella Cheese,Dairy & Cheese,Dropped / Damaged,11.23,lbs,4.5,50.54
+WST-7105,13-05-2025,RST-101,Uptown Flame & Grill,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,3.24,lbs,3.8,12.31
+WST-7106,23-04-2025,RST-100,The Downtown Bistro,ING-028,Soy Sauce,Condiments & Oils,Dropped / Damaged,0.55,fl oz,0.15,0.08
+WST-7107,17-07-2025,RST-109,Bayview Sushi & Raw,ING-031,House Red Wine,Beverages & Draft,Dropped / Damaged,18.13,glasses,2.5,45.32
+WST-7108,13-08-2025,RST-110,Metro Garden Salad,ING-005,Ground Turkey,Meat & Poultry,Prep Waste / Trimming,2.03,lbs,4,8.12
+WST-7109,12-09-2025,RST-107,Pacific Coast Diner,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,9.96,lbs,4.2,41.83
+WST-7110,19-04-2025,RST-110,Metro Garden Salad,ING-030,Craft IPA Beer Keg,Beverages & Draft,Expired / Spoiled,67.7,pints,1.1,74.47
+WST-7111,13-12-2025,RST-107,Pacific Coast Diner,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,28.93,lbs,1.5,43.39
+WST-7112,29-10-2025,RST-105,Loop Craft Kitchen,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,8.29,lbs,6,49.74
+WST-7113,05-08-2025,RST-108,Soma Tapas Bar,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,24.27,units,2.5,60.67
+WST-7114,06-10-2025,RST-107,Pacific Coast Diner,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,15.32,lbs,4.2,64.34
+WST-7115,12-08-2025,RST-100,The Downtown Bistro,ING-007,Jumbo Shrimp,Seafood,Overcooked / Burnt,5.11,lbs,12,61.32
+WST-7116,17-04-2025,RST-111,Pike Place Italian,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,4.91,oz,0.6,2.95
+WST-7117,12-02-2025,RST-102,Harborfront Seafood,ING-001,Prime Angus Beef Patty,Meat & Poultry,Expired / Spoiled,1.5,lbs,6.5,9.75
+WST-7118,05-05-2025,RST-109,Bayview Sushi & Raw,ING-015,Hass Avocado,Produce,Dropped / Damaged,87.26,units,1.25,109.08
+WST-7119,11-12-2025,RST-101,Uptown Flame & Grill,ING-017,Idaho Russet Potatoes,Produce,Dropped / Damaged,4.66,lbs,0.85,3.96
+WST-7120,15-05-2025,RST-104,Midtown Smokehouse,ING-012,Heavy Cream,Dairy & Cheese,Prep Waste / Trimming,9.84,quarts,3.2,31.49
+WST-7121,20-05-2025,RST-101,Uptown Flame & Grill,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,4.8,lbs,14.5,69.6
+WST-7122,17-10-2025,RST-103,Beacon Hill Cafe,ING-017,Idaho Russet Potatoes,Produce,Customer Return / Quality,3.18,lbs,0.85,2.7
+WST-7123,19-02-2025,RST-107,Pacific Coast Diner,ING-018,Roma Tomatoes,Produce,Freezer Malfunction / Bulk Spoilage,438.69,lbs,1.5,658.04
+WST-7124,07-12-2025,RST-110,Metro Garden Salad,ING-001,Prime Angus Beef Patty,Meat & Poultry,Overcooked / Burnt,7.93,lbs,6.5,51.55
+WST-7125,26-02-2025,RST-111,Pike Place Italian,ING-025,Tortilla Wraps,Bakery,Dropped / Damaged,53.28,units,0.25,13.32
+WST-7126,06-11-2025,RST-101,Uptown Flame & Grill,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,70.66,units,0.25,17.66
+WST-7127,30-11-2025,RST-108,Soma Tapas Bar,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,102.83,glasses,2.5,257.07
+WST-7128,24-03-2025,RST-102,Harborfront Seafood,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,4.73,lbs,4.2,19.87
+WST-7129,09-01-2025,RST-101,Uptown Flame & Grill,ING-032,Espresso Beans,Beverages & Draft,Overcooked / Burnt,23.25,oz,0.6,13.95
+WST-7130,06-07-2025,RST-104,Midtown Smokehouse,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,9.73,lbs,4.2,40.87
+WST-7131,18-06-2025,RST-100,The Downtown Bistro,ING-023,Brioche Burger Buns,Bakery,Customer Return / Quality,32.24,units,0.45,14.51
+WST-7132,10-10-2025,RST-109,Bayview Sushi & Raw,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,148.35,units,0.45,66.76
+WST-7133,25-05-2025,RST-102,Harborfront Seafood,ING-015,Hass Avocado,Produce,Prep Waste / Trimming,40.6,units,1.25,50.75
+WST-7134,27-02-2025,RST-106,Sunset Strip Burgers,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,11.79,lbs,4,47.16
+WST-7135,27-11-2025,RST-104,Midtown Smokehouse,ING-023,Brioche Burger Buns,Bakery,Customer Return / Quality,41.01,units,0.45,18.45
+WST-7136,16-10-2025,RST-110,Metro Garden Salad,ING-033,Cold Brew Concentrate,Beverages & Draft,Expired / Spoiled,221.66,fl oz,0.45,99.75
+WST-7137,30-04-2025,RST-107,Pacific Coast Diner,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,10.04,lbs,5.1,51.2
+WST-7138,08-05-2025,RST-110,Metro Garden Salad,ING-012,Heavy Cream,Dairy & Cheese,Prep Waste / Trimming,0.98,quarts,3.2,3.14
+WST-7139,11-01-2025,RST-100,The Downtown Bistro,ING-001,Prime Angus Beef Patty,Meat & Poultry,Expired / Spoiled,12.96,lbs,6.5,84.24
+WST-7140,05-06-2025,RST-111,Pike Place Italian,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,11.07,lbs,11.5,127.31
+WST-7141,22-09-2025,RST-109,Bayview Sushi & Raw,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,21.08,lbs,0.85,17.92
+WST-7142,20-12-2025,RST-110,Metro Garden Salad,ING-025,Tortilla Wraps,Bakery,Dropped / Damaged,85.37,units,0.25,21.34
+WST-7143,16-02-2025,RST-110,Metro Garden Salad,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,10.38,lbs,1.5,15.57
+WST-7144,20-08-2025,RST-111,Pike Place Italian,ING-026,Truffle Mayo,Condiments & Oils,Prep Waste / Trimming,21.97,fl oz,0.35,7.69
+WST-7145,06-03-2025,RST-102,Harborfront Seafood,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,11.96,lbs,4.2,50.23
+WST-7146,06-05-2025,RST-102,Harborfront Seafood,ING-005,Ground Turkey,Meat & Poultry,Prep Waste / Trimming,3.78,lbs,4,15.12
+WST-7147,23-04-2025,RST-105,Loop Craft Kitchen,ING-011,Mozzarella Cheese,Dairy & Cheese,Overcooked / Burnt,3.24,lbs,4.5,14.58
+WST-7148,08-06-2025,RST-104,Midtown Smokehouse,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,158.53,fl oz,0.15,23.78
+WST-7149,21-10-2025,RST-108,Soma Tapas Bar,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,7.44,lbs,4.2,31.25
+WST-7150,23-03-2025,RST-103,Beacon Hill Cafe,ING-016,Romaine Lettuce,Produce,Dropped / Damaged,17.91,lbs,1.8,32.24
+WST-7151,01-01-2025,RST-101,Uptown Flame & Grill,ING-011,Mozzarella Cheese,Dairy & Cheese,Freezer Malfunction / Bulk Spoilage,207.45,lbs,4.5,933.52
+WST-7152,21-03-2025,RST-107,Pacific Coast Diner,ING-007,Jumbo Shrimp,Seafood,Customer Return / Quality,9.03,lbs,12,108.36
+WST-7153,07-05-2025,RST-111,Pike Place Italian,ING-033,Cold Brew Concentrate,Beverages & Draft,Customer Return / Quality,34.31,fl oz,0.45,15.44
+WST-7154,11-02-2025,RST-104,Midtown Smokehouse,ING-025,Tortilla Wraps,Bakery,Prep Waste / Trimming,59.25,units,0.25,14.81
+WST-7155,31-03-2025,RST-103,Beacon Hill Cafe,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,85.76,units,0.25,21.44
+WST-7156,01-04-2025,RST-102,Harborfront Seafood,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,18.98,lbs,11.5,218.27
+WST-7157,26-05-2025,RST-102,Harborfront Seafood,ING-022,Spinach,Produce,Dropped / Damaged,13.57,lbs,2.2,29.85
+WST-7158,05-04-2025,RST-110,Metro Garden Salad,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,3.05,lbs,9.5,28.97
+WST-7159,31-01-2025,RST-107,Pacific Coast Diner,ING-032,Espresso Beans,Beverages & Draft,Customer Return / Quality,29.25,oz,0.6,17.55
+WST-7160,10-04-2025,RST-102,Harborfront Seafood,ING-028,Soy Sauce,Condiments & Oils,Expired / Spoiled,37.31,fl oz,0.15,5.6
+WST-7161,30-08-2025,RST-103,Beacon Hill Cafe,ING-005,Ground Turkey,Meat & Poultry,Prep Waste / Trimming,26.04,lbs,4,104.16
+WST-7162,19-02-2025,RST-110,Metro Garden Salad,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,6.1,lbs,14.5,88.45
+WST-7163,18-03-2025,RST-105,Loop Craft Kitchen,ING-023,Brioche Burger Buns,Bakery,Prep Waste / Trimming,42.3,units,0.45,19.04
+WST-7164,06-10-2025,RST-109,Bayview Sushi & Raw,ING-009,Lobster Tail,Seafood,,12.98,lbs,22,285.56
+WST-7165,13-10-2025,RST-107,Pacific Coast Diner,ING-026,Truffle Mayo,Condiments & Oils,Overcooked / Burnt,15.58,fl oz,0.35,5.45
+WST-7166,02-03-2025,RST-105,Loop Craft Kitchen,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,62.06,fl oz,0.15,9.31
+WST-7167,10-06-2025,RST-102,Harborfront Seafood,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,24.5,fl oz,0.15,3.67
+WST-7168,24-12-2025,RST-108,Soma Tapas Bar,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,9.83,lbs,6.5,63.9
+WST-7169,02-06-2025,RST-109,Bayview Sushi & Raw,ING-033,Cold Brew Concentrate,Beverages & Draft,Prep Waste / Trimming,115.05,fl oz,0.45,51.77
+WST-7170,04-01-2025,RST-102,Harborfront Seafood,ING-015,Hass Avocado,Produce,Expired / Spoiled,57.86,units,1.25,72.33
+WST-7171,05-09-2025,RST-106,Sunset Strip Burgers,ING-008,Yellowfin Tuna,Seafood,Overcooked / Burnt,2.59,lbs,16,41.44
+WST-7172,17-01-2025,RST-104,Midtown Smokehouse,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,69.55,units,0.25,17.39
+WST-7173,26-04-2025,RST-109,Bayview Sushi & Raw,ING-019,Red Onions,Produce,Prep Waste / Trimming,7.79,lbs,0.9,7.01
+WST-7174,01-07-2025,RST-106,Sunset Strip Burgers,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,15.55,lbs,6.5,101.08
+WST-7175,29-05-2025,RST-101,Uptown Flame & Grill,ING-015,Hass Avocado,Produce,Expired / Spoiled,30.69,units,1.25,38.36
+WST-7176,26-05-2025,RST-103,Beacon Hill Cafe,ING-019,Red Onions,Produce,Prep Waste / Trimming,20.49,lbs,0.9,18.44
+WST-7177,30-07-2025,RST-107,Pacific Coast Diner,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,42.9,units,2.5,107.25
+WST-7178,19-12-2025,RST-103,Beacon Hill Cafe,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,2.8,lbs,0.85,2.38
+WST-7179,25-09-2025,RST-100,The Downtown Bistro,ING-011,Mozzarella Cheese,Dairy & Cheese,Overcooked / Burnt,9.52,lbs,4.5,42.84
+WST-7180,26-11-2025,RST-101,Uptown Flame & Grill,ING-004,Pork Shoulder,Meat & Poultry,Dropped / Damaged,13.95,lbs,3.8,53.01
+WST-7181,20-06-2025,RST-104,Midtown Smokehouse,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,8.98,lbs,14.5,130.21
+WST-7182,30-05-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,1.28,lbs,0.85,1.09
+WST-7183,02-02-2025,RST-110,Metro Garden Salad,ING-002,Chicken Breast,Meat & Poultry,Overcooked / Burnt,26.06,lbs,4.2,109.45
+WST-7184,30-03-2025,RST-106,Sunset Strip Burgers,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,14.92,fl oz,0.35,5.22
+WST-7185,28-07-2025,RST-103,Beacon Hill Cafe,ING-022,Spinach,Produce,Prep Waste / Trimming,4.17,lbs,2.2,9.17
+WST-7186,04-04-2025,RST-105,Loop Craft Kitchen,ING-016,Romaine Lettuce,Produce,Expired / Spoiled,4.83,lbs,1.8,8.69
+WST-7187,15-07-2025,RST-103,Beacon Hill Cafe,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,1.24,lbs,11.5,14.26
+WST-7188,25-02-2025,RST-102,Harborfront Seafood,ING-015,Hass Avocado,Produce,Expired / Spoiled,208.37,units,1.25,260.46
+WST-7189,27-02-2025,RST-108,Soma Tapas Bar,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,80.23,units,2.5,200.58
+WST-7190,23-04-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Expired / Spoiled,14.5,lbs,0.9,13.05
+WST-7191,26-05-2025,RST-101,Uptown Flame & Grill,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,1.24,lbs,0.85,1.05
+WST-7192,25-02-2025,RST-107,Pacific Coast Diner,ING-005,Ground Turkey,Meat & Poultry,Dropped / Damaged,7.99,lbs,4,31.96
+WST-7193,24-08-2025,RST-106,Sunset Strip Burgers,ING-009,Lobster Tail,Seafood,Expired / Spoiled,10.52,lbs,22,231.44
+WST-7194,26-10-2025,RST-106,Sunset Strip Burgers,ING-004,Pork Shoulder,Meat & Poultry,Customer Return / Quality,3.49,lbs,3.8,13.26
+WST-7195,13-04-2025,RST-109,Bayview Sushi & Raw,ING-030,Craft IPA Beer Keg,Beverages & Draft,Prep Waste / Trimming,71.18,pints,1.1,78.3
+WST-7196,28-02-2025,RST-100,The Downtown Bistro,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,48.38,oz,0.6,29.03
+WST-7197,16-10-2025,RST-103,Beacon Hill Cafe,ING-012,Heavy Cream,Dairy & Cheese,Overcooked / Burnt,12.04,quarts,3.2,38.53
+WST-7198,11-09-2025,RST-100,The Downtown Bistro,ING-012,Heavy Cream,Dairy & Cheese,Customer Return / Quality,2.15,quarts,3.2,6.88
+WST-7199,28-06-2025,RST-111,Pike Place Italian,ING-004,Pork Shoulder,Meat & Poultry,Customer Return / Quality,7.95,lbs,3.8,30.21
+WST-7200,25-01-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Dropped / Damaged,19.4,lbs,0.9,17.46
+WST-7201,06-07-2025,RST-111,Pike Place Italian,ING-014,Parmesan Reggiano,Dairy & Cheese,Dropped / Damaged,28.76,lbs,9.5,273.22
+WST-7202,14-10-2025,RST-105,Loop Craft Kitchen,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,90.7,fl oz,0.4,36.28
+WST-7203,23-09-2025,RST-108,Soma Tapas Bar,ING-019,Red Onions,Produce,Dropped / Damaged,9.32,lbs,0.9,8.39
+WST-7204,09-09-2025,RST-111,Pike Place Italian,ING-006,Atlantic Salmon Fillet,Seafood,,20.17,lbs,11.5,231.96
+WST-7205,19-01-2025,RST-103,Beacon Hill Cafe,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,14.19,lbs,3.8,53.92
+WST-7206,31-08-2025,RST-107,Pacific Coast Diner,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,18.85,quarts,3.2,60.32
+WST-7207,18-07-2025,RST-107,Pacific Coast Diner,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,29.03,units,0.25,7.26
+WST-7208,08-09-2025,RST-109,Bayview Sushi & Raw,ING-023,Brioche Burger Buns,Bakery,Customer Return / Quality,50.06,units,0.45,22.53
+WST-7209,01-01-2025,RST-111,Pike Place Italian,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,1.25,lbs,12,15
+WST-7210,25-04-2025,RST-110,Metro Garden Salad,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,11.74,lbs,0.85,9.98
+WST-7211,21-05-2025,RST-110,Metro Garden Salad,ING-015,Hass Avocado,Produce,Dropped / Damaged,18.55,units,1.25,23.19
+WST-7212,24-06-2025,RST-102,Harborfront Seafood,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,82.97,units,0.45,37.34
+WST-7213,25-04-2025,RST-100,The Downtown Bistro,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Freezer Malfunction / Bulk Spoilage,1357.37,fl oz,0.4,542.95
+WST-7214,21-03-2025,RST-101,Uptown Flame & Grill,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,6.46,lbs,3.8,24.55
+WST-7215,14-03-2025,RST-111,Pike Place Italian,ING-009,Lobster Tail,Seafood,Overcooked / Burnt,6.27,lbs,22,137.94
+WST-7216,24-09-2025,RST-107,Pacific Coast Diner,ING-023,Brioche Burger Buns,Bakery,Overcooked / Burnt,56.36,units,0.45,25.36
+WST-7217,13-06-2025,RST-103,Beacon Hill Cafe,ING-029,Balsamic Glaze,Condiments & Oils,Dropped / Damaged,63.45,fl oz,0.5,31.73
+WST-7218,01-06-2025,RST-100,The Downtown Bistro,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,5.05,lbs,3.8,19.19
+WST-7219,26-04-2025,RST-106,Sunset Strip Burgers,ING-033,Cold Brew Concentrate,Beverages & Draft,Prep Waste / Trimming,19.2,fl oz,0.45,8.64
+WST-7220,16-08-2025,RST-103,Beacon Hill Cafe,ING-019,Red Onions,Produce,Expired / Spoiled,8.21,lbs,0.9,7.39
+WST-7221,01-12-2025,RST-103,Beacon Hill Cafe,ING-016,Romaine Lettuce,Produce,Dropped / Damaged,3.55,lbs,1.8,6.39
+WST-7222,05-09-2025,RST-110,Metro Garden Salad,ING-019,Red Onions,Produce,Prep Waste / Trimming,18.8,lbs,0.9,16.92
+WST-7223,12-09-2025,RST-108,Soma Tapas Bar,ING-032,Espresso Beans,Beverages & Draft,Dropped / Damaged,67.42,oz,0.6,40.45
+WST-7224,06-04-2025,RST-106,Sunset Strip Burgers,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,67.77,oz,0.6,40.66
+WST-7225,06-02-2025,RST-101,Uptown Flame & Grill,ING-011,Mozzarella Cheese,Dairy & Cheese,Expired / Spoiled,7.07,lbs,4.5,31.82
+WST-7226,13-05-2025,RST-106,Sunset Strip Burgers,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,12.96,lbs,12,155.52
+WST-7227,24-10-2025,RST-100,The Downtown Bistro,ING-030,Craft IPA Beer Keg,Beverages & Draft,Overcooked / Burnt,64.45,pints,1.1,70.9
+WST-7228,17-02-2025,RST-103,Beacon Hill Cafe,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,52.85,oz,0.6,31.71
+WST-7229,21-02-2025,RST-107,Pacific Coast Diner,ING-013,Unsalted Butter,Dairy & Cheese,Dropped / Damaged,40.78,lbs,3.8,154.96
+WST-7230,06-03-2025,RST-111,Pike Place Italian,ING-017,Idaho Russet Potatoes,Produce,Dropped / Damaged,2.83,lbs,0.85,2.41
+WST-7231,23-10-2025,RST-110,Metro Garden Salad,ING-018,Roma Tomatoes,Produce,Overcooked / Burnt,13.67,lbs,1.5,20.5
+WST-7232,06-10-2025,RST-111,Pike Place Italian,ING-029,Balsamic Glaze,Condiments & Oils,Prep Waste / Trimming,52.73,fl oz,0.5,26.36
+WST-7233,31-08-2025,RST-104,Midtown Smokehouse,ING-022,Spinach,Produce,Expired / Spoiled,5.58,lbs,2.2,12.28
+WST-7234,01-08-2025,RST-109,Bayview Sushi & Raw,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,13.78,fl oz,0.35,4.82
+WST-7235,25-07-2025,RST-101,Uptown Flame & Grill,ING-012,Heavy Cream,Dairy & Cheese,Customer Return / Quality,9.44,quarts,3.2,30.21
+WST-7236,23-08-2025,RST-102,Harborfront Seafood,ING-031,House Red Wine,Beverages & Draft,Overcooked / Burnt,15.03,glasses,2.5,37.57
+WST-7237,02-12-2025,RST-109,Bayview Sushi & Raw,ING-003,Ribeye Steak,Meat & Poultry,Dropped / Damaged,8.26,lbs,14.5,119.77
+WST-7238,27-01-2025,RST-100,The Downtown Bistro,ING-006,Atlantic Salmon Fillet,Seafood,Customer Return / Quality,8.37,lbs,11.5,96.25
+WST-7239,13-05-2025,RST-104,Midtown Smokehouse,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,18.15,lbs,4.2,76.23
+WST-7240,23-11-2025,RST-101,Uptown Flame & Grill,ING-009,Lobster Tail,Seafood,Dropped / Damaged,17.09,lbs,22,375.98
+WST-7241,06-06-2025,RST-104,Midtown Smokehouse,ING-005,Ground Turkey,Meat & Poultry,Customer Return / Quality,2.66,lbs,4,10.64
+WST-7242,22-08-2025,RST-102,Harborfront Seafood,ING-024,Sourdough Loaf,Bakery,Prep Waste / Trimming,67.72,units,2.5,169.3
+WST-7243,28-09-2025,RST-102,Harborfront Seafood,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,19.62,lbs,4.2,82.4
+WST-7244,21-12-2025,RST-101,Uptown Flame & Grill,ING-023,Brioche Burger Buns,Bakery,Customer Return / Quality,42.36,units,0.45,19.06
+WST-7245,08-10-2025,RST-108,Soma Tapas Bar,ING-033,Cold Brew Concentrate,Beverages & Draft,Expired / Spoiled,88.87,fl oz,0.45,39.99
+WST-7246,13-12-2025,RST-107,Pacific Coast Diner,ING-019,Red Onions,Produce,Overcooked / Burnt,7.34,lbs,0.9,6.61
+WST-7247,07-06-2025,RST-109,Bayview Sushi & Raw,ING-019,Red Onions,Produce,Overcooked / Burnt,17.84,lbs,0.9,16.06
+WST-7248,11-05-2025,RST-104,Midtown Smokehouse,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,89.24,glasses,2.5,223.1
+WST-7249,07-01-2025,RST-100,The Downtown Bistro,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,7.55,lbs,12,90.6
+WST-7250,15-07-2025,RST-103,Beacon Hill Cafe,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,13.16,lbs,4.2,55.27
+WST-7251,26-04-2025,RST-102,Harborfront Seafood,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,4.4,lbs,4,17.6
+WST-7252,26-04-2025,RST-108,Soma Tapas Bar,ING-013,Unsalted Butter,Dairy & Cheese,Prep Waste / Trimming,21.25,lbs,3.8,80.75
+WST-7253,19-05-2025,RST-105,Loop Craft Kitchen,ING-011,Mozzarella Cheese,Dairy & Cheese,Overcooked / Burnt,3.6,lbs,4.5,16.2
+WST-7254,24-07-2025,RST-100,The Downtown Bistro,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,8.62,lbs,4.5,38.79
+WST-7255,30-10-2025,RST-104,Midtown Smokehouse,ING-030,Craft IPA Beer Keg,Beverages & Draft,Prep Waste / Trimming,30.69,pints,1.1,33.76
+WST-7256,16-05-2025,RST-102,Harborfront Seafood,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,4.73,lbs,11.5,54.4
+WST-7257,04-03-2025,RST-100,The Downtown Bistro,ING-009,Lobster Tail,Seafood,Customer Return / Quality,1.91,lbs,22,42.02
+WST-7258,04-08-2025,RST-106,Sunset Strip Burgers,ING-006,Atlantic Salmon Fillet,Seafood,Expired / Spoiled,35.34,lbs,11.5,406.41
+WST-7259,21-04-2025,RST-109,Bayview Sushi & Raw,ING-031,House Red Wine,Beverages & Draft,Overcooked / Burnt,18.73,glasses,2.5,46.83
+WST-7260,26-12-2025,RST-102,Harborfront Seafood,ING-007,Jumbo Shrimp,Seafood,Prep Waste / Trimming,6.45,lbs,12,77.4
+WST-7261,27-08-2025,RST-111,Pike Place Italian,ING-004,Pork Shoulder,Meat & Poultry,Expired / Spoiled,3.5,lbs,3.8,13.3
+WST-7262,19-05-2025,RST-105,Loop Craft Kitchen,ING-014,Parmesan Reggiano,Dairy & Cheese,Overcooked / Burnt,10.55,lbs,9.5,100.23
+WST-7263,28-06-2025,RST-103,Beacon Hill Cafe,ING-017,Idaho Russet Potatoes,Produce,,12.97,lbs,0.85,11.02
+WST-7264,31-12-2025,RST-103,Beacon Hill Cafe,ING-011,Mozzarella Cheese,Dairy & Cheese,Customer Return / Quality,3.17,lbs,4.5,14.27
+WST-7265,08-01-2025,RST-110,Metro Garden Salad,ING-015,Hass Avocado,Produce,,42.23,units,1.25,52.79
+WST-7266,06-12-2025,RST-107,Pacific Coast Diner,ING-033,Cold Brew Concentrate,Beverages & Draft,Dropped / Damaged,21.25,fl oz,0.45,9.56
+WST-7267,05-03-2025,RST-100,The Downtown Bistro,ING-031,House Red Wine,Beverages & Draft,Prep Waste / Trimming,83.72,glasses,2.5,209.3
+WST-7268,01-03-2025,RST-110,Metro Garden Salad,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,46.47,quarts,3.2,148.7
+WST-7269,24-11-2025,RST-110,Metro Garden Salad,ING-012,Heavy Cream,Dairy & Cheese,Dropped / Damaged,17.54,quarts,3.2,56.13
+WST-7270,09-07-2025,RST-111,Pike Place Italian,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,1.76,lbs,4.2,7.39
+WST-7271,21-10-2025,RST-104,Midtown Smokehouse,ING-032,Espresso Beans,Beverages & Draft,Dropped / Damaged,76.82,oz,0.6,46.09
+WST-7272,30-08-2025,RST-106,Sunset Strip Burgers,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,21.49,units,0.45,9.67
+WST-7273,02-09-2025,RST-100,The Downtown Bistro,ING-024,Sourdough Loaf,Bakery,Dropped / Damaged,78.37,units,2.5,195.93
+WST-7274,07-01-2025,RST-107,Pacific Coast Diner,ING-021,Wild Mushrooms,Produce,Overcooked / Burnt,24.81,lbs,6,148.86
+WST-7275,29-09-2025,RST-104,Midtown Smokehouse,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,129.95,oz,0.6,77.97
+WST-7276,29-09-2025,RST-104,Midtown Smokehouse,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,4.31,lbs,9.5,40.94
+WST-7277,17-05-2025,RST-107,Pacific Coast Diner,ING-026,Truffle Mayo,Condiments & Oils,Dropped / Damaged,68.22,fl oz,0.35,23.88
+WST-7278,02-12-2025,RST-109,Bayview Sushi & Raw,ING-033,Cold Brew Concentrate,Beverages & Draft,,62.74,fl oz,0.45,28.23
+WST-7279,10-11-2025,RST-100,The Downtown Bistro,ING-016,Romaine Lettuce,Produce,Prep Waste / Trimming,8.23,lbs,1.8,14.81
+WST-7280,22-07-2025,RST-100,The Downtown Bistro,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,30.42,units,0.45,13.69
+WST-7281,20-06-2025,RST-106,Sunset Strip Burgers,ING-023,Brioche Burger Buns,Bakery,Freezer Malfunction / Bulk Spoilage,904.83,units,0.45,407.17
+WST-7282,28-06-2025,RST-107,Pacific Coast Diner,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,21.05,lbs,4.2,88.41
+WST-7283,19-03-2025,RST-104,Midtown Smokehouse,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,7.58,lbs,16,121.28
+WST-7284,24-11-2025,RST-101,Uptown Flame & Grill,ING-032,Espresso Beans,Beverages & Draft,Customer Return / Quality,50.94,oz,0.6,30.56
+WST-7285,12-07-2025,RST-104,Midtown Smokehouse,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,7.93,lbs,6.5,51.55
+WST-7286,27-10-2025,RST-110,Metro Garden Salad,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,30.45,fl oz,0.35,10.66
+WST-7287,29-10-2025,RST-109,Bayview Sushi & Raw,ING-024,Sourdough Loaf,Bakery,,45.48,units,2.5,113.7
+WST-7288,04-09-2025,RST-110,Metro Garden Salad,ING-024,Sourdough Loaf,Bakery,,123.21,units,2.5,308.02
+WST-7289,22-08-2025,RST-103,Beacon Hill Cafe,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,10.34,units,0.25,2.58
+WST-7290,12-10-2025,RST-101,Uptown Flame & Grill,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,34.29,oz,0.6,20.57
+WST-7291,24-12-2025,RST-106,Sunset Strip Burgers,ING-018,Roma Tomatoes,Produce,Prep Waste / Trimming,4.77,lbs,1.5,7.15
+WST-7292,28-12-2025,RST-104,Midtown Smokehouse,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,12.59,lbs,5.1,64.21
+WST-7293,20-08-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,21.56,lbs,0.85,18.33
+WST-7294,23-12-2025,RST-105,Loop Craft Kitchen,ING-016,Romaine Lettuce,Produce,Expired / Spoiled,19.64,lbs,1.8,35.35
+WST-7295,24-03-2025,RST-103,Beacon Hill Cafe,ING-022,Spinach,Produce,Prep Waste / Trimming,11.46,lbs,2.2,25.21
+WST-7296,20-07-2025,RST-101,Uptown Flame & Grill,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,23.27,lbs,9.5,221.06
+WST-7297,17-01-2025,RST-111,Pike Place Italian,ING-002,Chicken Breast,Meat & Poultry,Prep Waste / Trimming,10.42,lbs,4.2,43.76
+WST-7298,14-06-2025,RST-101,Uptown Flame & Grill,ING-003,Ribeye Steak,Meat & Poultry,Dropped / Damaged,2.43,lbs,14.5,35.23
+WST-7299,18-05-2025,RST-105,Loop Craft Kitchen,ING-013,Unsalted Butter,Dairy & Cheese,Prep Waste / Trimming,36.75,lbs,3.8,139.65
+WST-7300,29-11-2025,RST-108,Soma Tapas Bar,ING-009,Lobster Tail,Seafood,Overcooked / Burnt,3.13,lbs,22,68.86
+WST-7301,15-05-2025,RST-104,Midtown Smokehouse,ING-009,Lobster Tail,Seafood,Prep Waste / Trimming,7.28,lbs,22,160.16
+WST-7302,14-05-2025,RST-108,Soma Tapas Bar,ING-005,Ground Turkey,Meat & Poultry,Overcooked / Burnt,12.93,lbs,4,51.72
+WST-7303,20-09-2025,RST-100,The Downtown Bistro,ING-010,Aged Cheddar Slices,Dairy & Cheese,Dropped / Damaged,25.94,lbs,5.1,132.29
+WST-7304,09-12-2025,RST-107,Pacific Coast Diner,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,2.85,lbs,9.5,27.07
+WST-7305,20-11-2025,RST-101,Uptown Flame & Grill,ING-028,Soy Sauce,Condiments & Oils,Expired / Spoiled,183.87,fl oz,0.15,27.58
+WST-7306,03-06-2025,RST-104,Midtown Smokehouse,ING-020,Fresh Basil,Produce,Prep Waste / Trimming,19.69,bunches,0.3,5.91
+WST-7307,05-11-2025,RST-100,The Downtown Bistro,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,25.96,lbs,4.2,109.03
+WST-7308,16-03-2025,RST-103,Beacon Hill Cafe,ING-030,Craft IPA Beer Keg,Beverages & Draft,Customer Return / Quality,69.14,pints,1.1,76.05
+WST-7309,13-05-2025,RST-100,The Downtown Bistro,ING-007,Jumbo Shrimp,Seafood,Dropped / Damaged,28.64,lbs,12,343.68
+WST-7310,08-09-2025,RST-104,Midtown Smokehouse,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,11.33,lbs,14.5,164.28
+WST-7311,22-01-2025,RST-104,Midtown Smokehouse,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,7.64,lbs,16,122.24
+WST-7312,19-08-2025,RST-104,Midtown Smokehouse,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,6.66,lbs,9.5,63.27
+WST-7313,10-01-2025,RST-104,Midtown Smokehouse,ING-029,Balsamic Glaze,Condiments & Oils,Overcooked / Burnt,86.66,fl oz,0.5,43.33
+WST-7314,07-06-2025,RST-101,Uptown Flame & Grill,ING-007,Jumbo Shrimp,Seafood,,2.9,lbs,12,34.8
+WST-7315,23-10-2025,RST-108,Soma Tapas Bar,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,37.85,fl oz,0.15,5.68
+WST-7316,30-04-2025,RST-109,Bayview Sushi & Raw,ING-012,Heavy Cream,Dairy & Cheese,Prep Waste / Trimming,2.99,quarts,3.2,9.57
+WST-7317,01-12-2025,RST-107,Pacific Coast Diner,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,22.25,fl oz,0.35,7.79
+WST-7318,22-09-2025,RST-111,Pike Place Italian,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,48.69,oz,0.6,29.21
+WST-7319,18-01-2025,RST-111,Pike Place Italian,ING-010,Aged Cheddar Slices,Dairy & Cheese,Prep Waste / Trimming,5.01,lbs,5.1,25.55
+WST-7320,02-08-2025,RST-111,Pike Place Italian,ING-029,Balsamic Glaze,Condiments & Oils,,80.23,fl oz,0.5,40.12
+WST-7321,07-06-2025,RST-100,The Downtown Bistro,ING-004,Pork Shoulder,Meat & Poultry,Prep Waste / Trimming,4.5,lbs,3.8,17.1
+WST-7322,12-03-2025,RST-109,Bayview Sushi & Raw,ING-015,Hass Avocado,Produce,Overcooked / Burnt,10.51,units,1.25,13.14
+WST-7323,16-11-2025,RST-104,Midtown Smokehouse,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,27.13,lbs,0.85,23.06
+WST-7324,03-09-2025,RST-111,Pike Place Italian,ING-024,Sourdough Loaf,Bakery,Customer Return / Quality,52.69,units,2.5,131.72
+WST-7325,02-08-2025,RST-104,Midtown Smokehouse,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,17.77,lbs,5.1,90.63
+WST-7326,06-06-2025,RST-110,Metro Garden Salad,ING-022,Spinach,Produce,,1.27,lbs,2.2,2.79
+WST-7327,05-11-2025,RST-101,Uptown Flame & Grill,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,16.76,lbs,6,100.56
+WST-7328,05-03-2025,RST-102,Harborfront Seafood,ING-015,Hass Avocado,Produce,Expired / Spoiled,36.57,units,1.25,45.71
+WST-7329,13-06-2025,RST-104,Midtown Smokehouse,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,32.43,lbs,3.8,123.23
+WST-7330,21-04-2025,RST-105,Loop Craft Kitchen,ING-024,Sourdough Loaf,Bakery,Dropped / Damaged,27.25,units,2.5,68.12
+WST-7331,20-05-2025,RST-111,Pike Place Italian,ING-014,Parmesan Reggiano,Dairy & Cheese,Dropped / Damaged,24.15,lbs,9.5,229.42
+WST-7332,02-05-2025,RST-104,Midtown Smokehouse,ING-033,Cold Brew Concentrate,Beverages & Draft,Overcooked / Burnt,11.97,fl oz,0.45,5.39
+WST-7333,20-12-2025,RST-109,Bayview Sushi & Raw,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,48.65,fl oz,0.15,7.3
+WST-7334,27-08-2025,RST-105,Loop Craft Kitchen,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,154.8,units,0.25,38.7
+WST-7335,17-03-2025,RST-103,Beacon Hill Cafe,ING-033,Cold Brew Concentrate,Beverages & Draft,Expired / Spoiled,2.91,fl oz,0.45,1.31
+WST-7336,13-03-2025,RST-107,Pacific Coast Diner,ING-007,Jumbo Shrimp,Seafood,Dropped / Damaged,10.96,lbs,12,131.52
+WST-7337,12-04-2025,RST-100,The Downtown Bistro,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,80.29,fl oz,0.4,32.12
+WST-7338,05-10-2025,RST-105,Loop Craft Kitchen,ING-024,Sourdough Loaf,Bakery,Overcooked / Burnt,24.54,units,2.5,61.35
+WST-7339,30-07-2025,RST-102,Harborfront Seafood,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Overcooked / Burnt,54.92,fl oz,0.4,21.97
+WST-7340,25-04-2025,RST-100,The Downtown Bistro,ING-033,Cold Brew Concentrate,Beverages & Draft,Expired / Spoiled,49.14,fl oz,0.45,22.11
+WST-7341,27-01-2025,RST-100,The Downtown Bistro,ING-024,Sourdough Loaf,Bakery,Dropped / Damaged,64.52,units,2.5,161.3
+WST-7342,08-04-2025,RST-100,The Downtown Bistro,ING-029,Balsamic Glaze,Condiments & Oils,Dropped / Damaged,101.63,fl oz,0.5,50.81
+WST-7343,22-09-2025,RST-110,Metro Garden Salad,ING-005,Ground Turkey,Meat & Poultry,Prep Waste / Trimming,2.9,lbs,4,11.6
+WST-7344,15-03-2025,RST-110,Metro Garden Salad,ING-004,Pork Shoulder,Meat & Poultry,,6.85,lbs,3.8,26.03
+WST-7345,15-09-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,Expired / Spoiled,22.64,lbs,0.9,20.38
+WST-7346,27-03-2025,RST-109,Bayview Sushi & Raw,ING-003,Ribeye Steak,Meat & Poultry,Overcooked / Burnt,9.59,lbs,14.5,139.06
+WST-7347,24-02-2025,RST-110,Metro Garden Salad,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,5.28,lbs,11.5,60.72
+WST-7348,09-03-2025,RST-102,Harborfront Seafood,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,3.5,lbs,16,56
+WST-7349,29-03-2025,RST-100,The Downtown Bistro,ING-007,Jumbo Shrimp,Seafood,Prep Waste / Trimming,16.91,lbs,12,202.92
+WST-7350,22-06-2025,RST-107,Pacific Coast Diner,ING-032,Espresso Beans,Beverages & Draft,Overcooked / Burnt,3.5,oz,0.6,2.1
+WST-7351,05-11-2025,RST-111,Pike Place Italian,ING-023,Brioche Burger Buns,Bakery,Overcooked / Burnt,42.24,units,0.45,19.01
+WST-7352,27-09-2025,RST-106,Sunset Strip Burgers,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,20.6,lbs,5.1,105.06
+WST-7353,20-11-2025,RST-103,Beacon Hill Cafe,ING-018,Roma Tomatoes,Produce,Dropped / Damaged,11.69,lbs,1.5,17.54
+WST-7354,25-02-2025,RST-101,Uptown Flame & Grill,ING-018,Roma Tomatoes,Produce,Prep Waste / Trimming,11.81,lbs,1.5,17.71
+WST-7355,13-12-2025,RST-107,Pacific Coast Diner,ING-015,Hass Avocado,Produce,Freezer Malfunction / Bulk Spoilage,594.27,units,1.25,742.84
+WST-7356,04-06-2025,RST-106,Sunset Strip Burgers,ING-022,Spinach,Produce,Customer Return / Quality,3.52,lbs,2.2,7.74
+WST-7357,12-10-2025,RST-109,Bayview Sushi & Raw,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,7.61,lbs,14.5,110.34
+WST-7358,19-05-2025,RST-103,Beacon Hill Cafe,ING-006,Atlantic Salmon Fillet,Seafood,Dropped / Damaged,13.56,lbs,11.5,155.94
+WST-7359,01-03-2025,RST-105,Loop Craft Kitchen,ING-029,Balsamic Glaze,Condiments & Oils,Prep Waste / Trimming,60.36,fl oz,0.5,30.18
+WST-7360,01-08-2025,RST-109,Bayview Sushi & Raw,ING-009,Lobster Tail,Seafood,Prep Waste / Trimming,10.12,lbs,22,222.64
+WST-7361,19-07-2025,RST-100,The Downtown Bistro,ING-033,Cold Brew Concentrate,Beverages & Draft,Overcooked / Burnt,31.8,fl oz,0.45,14.31
+WST-7362,31-08-2025,RST-101,Uptown Flame & Grill,ING-008,Yellowfin Tuna,Seafood,Dropped / Damaged,4.33,lbs,16,69.28
+WST-7363,30-11-2025,RST-101,Uptown Flame & Grill,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,4.41,lbs,0.85,3.75
+WST-7364,12-01-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Dropped / Damaged,17.42,lbs,0.85,14.81
+WST-7365,24-10-2025,RST-109,Bayview Sushi & Raw,ING-012,Heavy Cream,Dairy & Cheese,Overcooked / Burnt,14,quarts,3.2,44.8
+WST-7366,22-02-2025,RST-100,The Downtown Bistro,ING-029,Balsamic Glaze,Condiments & Oils,Expired / Spoiled,117.36,fl oz,0.5,58.68
+WST-7367,21-12-2025,RST-101,Uptown Flame & Grill,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,0.4,lbs,1.5,0.6
+WST-7368,19-02-2025,RST-103,Beacon Hill Cafe,ING-019,Red Onions,Produce,Prep Waste / Trimming,25.24,lbs,0.9,22.72
+WST-7369,11-11-2025,RST-109,Bayview Sushi & Raw,ING-016,Romaine Lettuce,Produce,Expired / Spoiled,9.39,lbs,1.8,16.9
+WST-7370,29-03-2025,RST-103,Beacon Hill Cafe,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,57.13,oz,0.6,34.28
+WST-7371,21-03-2025,RST-100,The Downtown Bistro,ING-002,Chicken Breast,Meat & Poultry,Prep Waste / Trimming,1.52,lbs,4.2,6.38
+WST-7372,04-10-2025,RST-106,Sunset Strip Burgers,ING-001,Prime Angus Beef Patty,Meat & Poultry,Expired / Spoiled,4.23,lbs,6.5,27.5
+WST-7373,07-06-2025,RST-108,Soma Tapas Bar,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,4.94,lbs,14.5,71.63
+WST-7374,01-07-2025,RST-106,Sunset Strip Burgers,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,2.83,lbs,16,45.28
+WST-7375,29-04-2025,RST-108,Soma Tapas Bar,ING-009,Lobster Tail,Seafood,Dropped / Damaged,7.95,lbs,22,174.9
+WST-7376,09-08-2025,RST-108,Soma Tapas Bar,ING-012,Heavy Cream,Dairy & Cheese,Customer Return / Quality,16.15,quarts,3.2,51.68
+WST-7377,31-01-2025,RST-107,Pacific Coast Diner,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,7.4,lbs,5.1,37.74
+WST-7378,01-12-2025,RST-103,Beacon Hill Cafe,ING-009,Lobster Tail,Seafood,Customer Return / Quality,14.27,lbs,22,313.94
+WST-7379,29-01-2025,RST-105,Loop Craft Kitchen,ING-016,Romaine Lettuce,Produce,Prep Waste / Trimming,9.72,lbs,1.8,17.5
+WST-7380,22-02-2025,RST-110,Metro Garden Salad,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,42.77,oz,0.6,25.66
+WST-7381,15-01-2025,RST-100,The Downtown Bistro,ING-015,Hass Avocado,Produce,Expired / Spoiled,94.6,units,1.25,118.25
+WST-7382,28-08-2025,RST-103,Beacon Hill Cafe,ING-026,Truffle Mayo,Condiments & Oils,Dropped / Damaged,12.87,fl oz,0.35,4.5
+WST-7383,23-05-2025,RST-104,Midtown Smokehouse,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,53.13,fl oz,0.4,21.25
+WST-7384,03-03-2025,RST-102,Harborfront Seafood,ING-005,Ground Turkey,Meat & Poultry,Overcooked / Burnt,4.61,lbs,4,18.44
+WST-7385,02-10-2025,RST-110,Metro Garden Salad,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,34,fl oz,0.15,5.1
+WST-7386,19-05-2025,RST-105,Loop Craft Kitchen,ING-015,Hass Avocado,Produce,Dropped / Damaged,40.53,units,1.25,50.66
+WST-7387,10-01-2025,RST-103,Beacon Hill Cafe,ING-009,Lobster Tail,Seafood,Expired / Spoiled,0.62,lbs,22,13.64
+WST-7388,16-10-2025,RST-110,Metro Garden Salad,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,18.32,lbs,4.5,82.44
+WST-7389,14-09-2025,RST-106,Sunset Strip Burgers,ING-009,Lobster Tail,Seafood,Overcooked / Burnt,20.77,lbs,22,456.94
+WST-7390,04-03-2025,RST-100,The Downtown Bistro,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,7.13,lbs,5.1,36.36
+WST-7391,22-12-2025,RST-110,Metro Garden Salad,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,57.38,units,0.25,14.35
+WST-7392,28-08-2025,RST-108,Soma Tapas Bar,ING-020,Fresh Basil,Produce,Customer Return / Quality,12.93,bunches,0.3,3.88
+WST-7393,16-03-2025,RST-100,The Downtown Bistro,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,7.61,lbs,9.5,72.3
+WST-7394,23-04-2025,RST-103,Beacon Hill Cafe,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,10.29,lbs,5.1,52.48
+WST-7395,02-02-2025,RST-101,Uptown Flame & Grill,ING-025,Tortilla Wraps,Bakery,Customer Return / Quality,36.72,units,0.25,9.18
+WST-7396,19-11-2025,RST-101,Uptown Flame & Grill,ING-009,Lobster Tail,Seafood,Expired / Spoiled,1.26,lbs,22,27.72
+WST-7397,22-05-2025,RST-109,Bayview Sushi & Raw,ING-023,Brioche Burger Buns,Bakery,Customer Return / Quality,22.39,units,0.45,10.08
+WST-7398,11-02-2025,RST-106,Sunset Strip Burgers,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,8.71,lbs,16,139.36
+WST-7399,18-04-2025,RST-105,Loop Craft Kitchen,ING-033,Cold Brew Concentrate,Beverages & Draft,Customer Return / Quality,9.64,fl oz,0.45,4.34
+WST-7400,16-09-2025,RST-107,Pacific Coast Diner,ING-001,Prime Angus Beef Patty,Meat & Poultry,Expired / Spoiled,4.44,lbs,6.5,28.86
+WST-7401,26-08-2025,RST-105,Loop Craft Kitchen,ING-005,Ground Turkey,Meat & Poultry,Dropped / Damaged,9.33,lbs,4,37.32
+WST-7402,04-07-2025,RST-104,Midtown Smokehouse,ING-015,Hass Avocado,Produce,Prep Waste / Trimming,16.91,units,1.25,21.14
+WST-7403,13-06-2025,RST-101,Uptown Flame & Grill,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,7.66,lbs,14.5,111.07
+WST-7404,01-11-2025,RST-108,Soma Tapas Bar,ING-011,Mozzarella Cheese,Dairy & Cheese,Expired / Spoiled,16.67,lbs,4.5,75.02
+WST-7405,02-02-2025,RST-107,Pacific Coast Diner,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,4.77,lbs,6,28.62
+WST-7406,15-03-2025,RST-103,Beacon Hill Cafe,ING-013,Unsalted Butter,Dairy & Cheese,Dropped / Damaged,7.02,lbs,3.8,26.68
+WST-7407,02-07-2025,RST-105,Loop Craft Kitchen,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,130.23,fl oz,0.4,52.09
+WST-7408,05-07-2025,RST-111,Pike Place Italian,ING-033,Cold Brew Concentrate,Beverages & Draft,Overcooked / Burnt,49.81,fl oz,0.45,22.41
+WST-7409,03-09-2025,RST-105,Loop Craft Kitchen,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Overcooked / Burnt,99.63,fl oz,0.4,39.85
+WST-7410,05-12-2025,RST-107,Pacific Coast Diner,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,55.97,units,2.5,139.93
+WST-7411,18-08-2025,RST-105,Loop Craft Kitchen,ING-018,Roma Tomatoes,Produce,Overcooked / Burnt,16.46,lbs,1.5,24.69
+WST-7412,04-08-2025,RST-101,Uptown Flame & Grill,ING-012,Heavy Cream,Dairy & Cheese,Overcooked / Burnt,4.3,quarts,3.2,13.76
+WST-7413,18-08-2025,RST-100,The Downtown Bistro,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,7.12,lbs,14.5,103.24
+WST-7414,28-06-2025,RST-110,Metro Garden Salad,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,149.48,fl oz,0.15,22.42
+WST-7415,26-08-2025,RST-103,Beacon Hill Cafe,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,4.09,lbs,9.5,38.85
+WST-7416,08-03-2025,RST-105,Loop Craft Kitchen,ING-029,Balsamic Glaze,Condiments & Oils,Prep Waste / Trimming,200.72,fl oz,0.5,100.36
+WST-7417,17-06-2025,RST-107,Pacific Coast Diner,ING-010,Aged Cheddar Slices,Dairy & Cheese,Customer Return / Quality,2.6,lbs,5.1,13.26
+WST-7418,11-12-2025,RST-108,Soma Tapas Bar,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,10.03,lbs,16,160.48
+WST-7419,12-07-2025,RST-103,Beacon Hill Cafe,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,119.99,fl oz,0.15,18
+WST-7420,07-02-2025,RST-104,Midtown Smokehouse,ING-010,Aged Cheddar Slices,Dairy & Cheese,Overcooked / Burnt,2.07,lbs,5.1,10.56
+WST-7421,14-12-2025,RST-100,The Downtown Bistro,ING-006,Atlantic Salmon Fillet,Seafood,Prep Waste / Trimming,9,lbs,11.5,103.5
+WST-7422,21-09-2025,RST-101,Uptown Flame & Grill,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,35.9,lbs,4.2,150.78
+WST-7423,31-08-2025,RST-107,Pacific Coast Diner,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,4.31,lbs,16,68.96
+WST-7424,27-08-2025,RST-106,Sunset Strip Burgers,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,24.79,lbs,16,396.64
+WST-7425,03-12-2025,RST-104,Midtown Smokehouse,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,56.1,glasses,2.5,140.25
+WST-7426,20-08-2025,RST-100,The Downtown Bistro,ING-029,Balsamic Glaze,Condiments & Oils,Dropped / Damaged,26.89,fl oz,0.5,13.45
+WST-7427,28-04-2025,RST-110,Metro Garden Salad,ING-009,Lobster Tail,Seafood,Expired / Spoiled,12.6,lbs,22,277.2
+WST-7428,08-01-2025,RST-110,Metro Garden Salad,ING-028,Soy Sauce,Condiments & Oils,Expired / Spoiled,58.98,fl oz,0.15,8.85
+WST-7429,21-08-2025,RST-101,Uptown Flame & Grill,ING-009,Lobster Tail,Seafood,Customer Return / Quality,19.98,lbs,22,439.56
+WST-7430,24-04-2025,RST-103,Beacon Hill Cafe,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,36.28,fl oz,0.15,5.44
+WST-7431,16-02-2025,RST-105,Loop Craft Kitchen,ING-006,Atlantic Salmon Fillet,Seafood,Customer Return / Quality,8.4,lbs,11.5,96.6
+WST-7432,05-03-2025,RST-105,Loop Craft Kitchen,ING-005,Ground Turkey,Meat & Poultry,Customer Return / Quality,19.96,lbs,4,79.84
+WST-7433,28-03-2025,RST-103,Beacon Hill Cafe,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,18.72,fl oz,0.15,2.81
+WST-7434,13-09-2025,RST-108,Soma Tapas Bar,ING-022,Spinach,Produce,Dropped / Damaged,5.71,lbs,2.2,12.56
+WST-7435,21-07-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,Expired / Spoiled,6.53,lbs,0.9,5.88
+WST-7436,12-10-2025,RST-100,The Downtown Bistro,ING-004,Pork Shoulder,Meat & Poultry,Customer Return / Quality,10.47,lbs,3.8,39.79
+WST-7437,23-06-2025,RST-104,Midtown Smokehouse,ING-007,Jumbo Shrimp,Seafood,Customer Return / Quality,18.67,lbs,12,224.04
+WST-7438,14-07-2025,RST-109,Bayview Sushi & Raw,ING-004,Pork Shoulder,Meat & Poultry,Expired / Spoiled,8.8,lbs,3.8,33.44
+WST-7439,13-01-2025,RST-107,Pacific Coast Diner,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,3.33,lbs,14.5,48.29
+WST-7440,22-09-2025,RST-107,Pacific Coast Diner,ING-019,Red Onions,Produce,Expired / Spoiled,1.83,lbs,0.9,1.65
+WST-7441,29-11-2025,RST-100,The Downtown Bistro,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,49.88,units,0.25,12.47
+WST-7442,10-01-2025,RST-104,Midtown Smokehouse,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,21.51,lbs,0.85,18.28
+WST-7443,19-01-2025,RST-108,Soma Tapas Bar,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,28.25,lbs,4.2,118.65
+WST-7444,27-01-2025,RST-100,The Downtown Bistro,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,11.86,lbs,4.2,49.81
+WST-7445,05-04-2025,RST-101,Uptown Flame & Grill,ING-008,Yellowfin Tuna,Seafood,Overcooked / Burnt,9.41,lbs,16,150.56
+WST-7446,26-02-2025,RST-111,Pike Place Italian,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,18.48,lbs,6,110.88
+WST-7447,05-01-2025,RST-102,Harborfront Seafood,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Prep Waste / Trimming,37.68,fl oz,0.4,15.07
+WST-7448,19-10-2025,RST-108,Soma Tapas Bar,ING-028,Soy Sauce,Condiments & Oils,Customer Return / Quality,114.46,fl oz,0.15,17.17
+WST-7449,14-12-2025,RST-110,Metro Garden Salad,ING-019,Red Onions,Produce,Prep Waste / Trimming,9.73,lbs,0.9,8.76
+WST-7450,20-10-2025,RST-103,Beacon Hill Cafe,ING-019,Red Onions,Produce,Expired / Spoiled,7.13,lbs,0.9,6.42
+WST-7451,23-01-2025,RST-102,Harborfront Seafood,ING-001,Prime Angus Beef Patty,Meat & Poultry,Dropped / Damaged,15.46,lbs,6.5,100.49
+WST-7452,18-02-2025,RST-103,Beacon Hill Cafe,ING-018,Roma Tomatoes,Produce,Customer Return / Quality,14.29,lbs,1.5,21.43
+WST-7453,21-12-2025,RST-111,Pike Place Italian,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,70.59,units,0.25,17.65
+WST-7454,26-08-2025,RST-106,Sunset Strip Burgers,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,11.7,lbs,1.5,17.55
+WST-7455,03-01-2025,RST-107,Pacific Coast Diner,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,9.66,lbs,6.5,62.79
+WST-7456,08-06-2025,RST-108,Soma Tapas Bar,ING-020,Fresh Basil,Produce,Prep Waste / Trimming,10.73,bunches,0.3,3.22
+WST-7457,23-02-2025,RST-102,Harborfront Seafood,ING-009,Lobster Tail,Seafood,Overcooked / Burnt,7.44,lbs,22,163.68
+WST-7458,22-10-2025,RST-104,Midtown Smokehouse,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,87.61,units,2.5,219.03
+WST-7459,14-05-2025,RST-102,Harborfront Seafood,ING-031,House Red Wine,Beverages & Draft,Customer Return / Quality,56.72,glasses,2.5,141.8
+WST-7460,05-09-2025,RST-110,Metro Garden Salad,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,12.77,lbs,14.5,185.16
+WST-7461,31-10-2025,RST-110,Metro Garden Salad,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Dropped / Damaged,171.53,fl oz,0.4,68.61
+WST-7462,30-04-2025,RST-106,Sunset Strip Burgers,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,1.28,lbs,6,7.68
+WST-7463,16-07-2025,RST-102,Harborfront Seafood,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,2.04,lbs,16,32.64
+WST-7464,30-04-2025,RST-111,Pike Place Italian,ING-004,Pork Shoulder,Meat & Poultry,Prep Waste / Trimming,10.7,lbs,3.8,40.66
+WST-7465,04-04-2025,RST-109,Bayview Sushi & Raw,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,8.07,lbs,5.1,41.16
+WST-7466,25-03-2025,RST-108,Soma Tapas Bar,ING-007,Jumbo Shrimp,Seafood,Overcooked / Burnt,2.84,lbs,12,34.08
+WST-7467,21-09-2025,RST-101,Uptown Flame & Grill,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,6.6,lbs,9.5,62.7
+WST-7468,23-12-2025,RST-101,Uptown Flame & Grill,ING-015,Hass Avocado,Produce,Expired / Spoiled,25.59,units,1.25,31.99
+WST-7469,22-12-2025,RST-109,Bayview Sushi & Raw,ING-030,Craft IPA Beer Keg,Beverages & Draft,Overcooked / Burnt,113.23,pints,1.1,124.55
+WST-7470,09-01-2025,RST-110,Metro Garden Salad,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,23.61,lbs,6,141.66
+WST-7471,15-04-2025,RST-102,Harborfront Seafood,ING-019,Red Onions,Produce,Dropped / Damaged,8.74,lbs,0.9,7.87
+WST-7472,20-02-2025,RST-103,Beacon Hill Cafe,ING-011,Mozzarella Cheese,Dairy & Cheese,Dropped / Damaged,3.94,lbs,4.5,17.73
+WST-7473,02-08-2025,RST-100,The Downtown Bistro,ING-020,Fresh Basil,Produce,Dropped / Damaged,24.22,bunches,0.3,7.27
+WST-7474,08-05-2025,RST-111,Pike Place Italian,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,5.11,lbs,4,20.44
+WST-7475,20-07-2025,RST-107,Pacific Coast Diner,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,40.99,units,0.45,18.45
+WST-7476,14-01-2025,RST-106,Sunset Strip Burgers,ING-022,Spinach,Produce,Customer Return / Quality,12.46,lbs,2.2,27.41
+WST-7477,01-12-2025,RST-108,Soma Tapas Bar,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Overcooked / Burnt,28.9,fl oz,0.4,11.56
+WST-7478,03-06-2025,RST-110,Metro Garden Salad,ING-016,Romaine Lettuce,Produce,Expired / Spoiled,11.05,lbs,1.8,19.89
+WST-7479,03-04-2025,RST-109,Bayview Sushi & Raw,ING-032,Espresso Beans,Beverages & Draft,Expired / Spoiled,101.31,oz,0.6,60.79
+WST-7480,12-10-2025,RST-102,Harborfront Seafood,ING-020,Fresh Basil,Produce,Overcooked / Burnt,6.98,bunches,0.3,2.09
+WST-7481,12-01-2025,RST-106,Sunset Strip Burgers,ING-012,Heavy Cream,Dairy & Cheese,Dropped / Damaged,13.77,quarts,3.2,44.06
+WST-7482,28-11-2025,RST-110,Metro Garden Salad,ING-024,Sourdough Loaf,Bakery,Overcooked / Burnt,118.64,units,2.5,296.6
+WST-7483,18-01-2025,RST-100,The Downtown Bistro,ING-022,Spinach,Produce,Prep Waste / Trimming,3.2,lbs,2.2,7.04
+WST-7484,28-08-2025,RST-109,Bayview Sushi & Raw,ING-019,Red Onions,Produce,Expired / Spoiled,12.59,lbs,0.9,11.33
+WST-7485,16-07-2025,RST-104,Midtown Smokehouse,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,66.61,units,2.5,166.53
+WST-7486,17-11-2025,RST-103,Beacon Hill Cafe,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,16.17,lbs,5.1,82.47
+WST-7487,30-10-2025,RST-100,The Downtown Bistro,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,63.63,units,0.45,28.63
+WST-7488,27-10-2025,RST-104,Midtown Smokehouse,ING-013,Unsalted Butter,Dairy & Cheese,Prep Waste / Trimming,10.85,lbs,3.8,41.23
+WST-7489,18-02-2025,RST-109,Bayview Sushi & Raw,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,6.36,lbs,6.5,41.34
+WST-7490,13-07-2025,RST-100,The Downtown Bistro,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,8.61,lbs,4.2,36.16
+WST-7491,24-01-2025,RST-104,Midtown Smokehouse,ING-009,Lobster Tail,Seafood,Customer Return / Quality,12.36,lbs,22,271.92
+WST-7492,28-06-2025,RST-108,Soma Tapas Bar,ING-010,Aged Cheddar Slices,Dairy & Cheese,Customer Return / Quality,2.23,lbs,5.1,11.37
+WST-7493,16-04-2025,RST-105,Loop Craft Kitchen,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,14.92,lbs,4,59.68
+WST-7494,20-05-2025,RST-105,Loop Craft Kitchen,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,6.57,lbs,9.5,62.42
+WST-7495,16-05-2025,RST-103,Beacon Hill Cafe,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,96.67,fl oz,0.35,33.83
+WST-7496,25-12-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,,15.03,lbs,0.9,13.53
+WST-7497,15-11-2025,RST-101,Uptown Flame & Grill,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Prep Waste / Trimming,26.98,fl oz,0.4,10.79
+WST-7498,07-10-2025,RST-106,Sunset Strip Burgers,ING-019,Red Onions,Produce,Freezer Malfunction / Bulk Spoilage,35.41,lbs,0.9,31.87
+WST-7499,07-07-2025,RST-101,Uptown Flame & Grill,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,78.52,glasses,2.5,196.3
+WST-7500,18-01-2025,RST-111,Pike Place Italian,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,28.91,fl oz,0.35,10.12
+WST-7501,23-11-2025,RST-100,The Downtown Bistro,ING-018,Roma Tomatoes,Produce,,6.08,lbs,1.5,9.12
+WST-7502,13-06-2025,RST-103,Beacon Hill Cafe,ING-020,Fresh Basil,Produce,Expired / Spoiled,7.74,bunches,0.3,2.32
+WST-7503,14-05-2025,RST-106,Sunset Strip Burgers,ING-001,Prime Angus Beef Patty,Meat & Poultry,Dropped / Damaged,21.93,lbs,6.5,142.54
+WST-7504,24-12-2025,RST-103,Beacon Hill Cafe,ING-024,Sourdough Loaf,Bakery,Prep Waste / Trimming,19.37,units,2.5,48.43
+WST-7505,07-08-2025,RST-102,Harborfront Seafood,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,20.23,units,0.25,5.06
+WST-7506,08-03-2025,RST-103,Beacon Hill Cafe,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,105.71,fl oz,0.35,37
+WST-7507,04-10-2025,RST-111,Pike Place Italian,ING-016,Romaine Lettuce,Produce,Prep Waste / Trimming,1.14,lbs,1.8,2.05
+WST-7508,18-08-2025,RST-101,Uptown Flame & Grill,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,27.59,lbs,11.5,317.29
+WST-7509,01-05-2025,RST-111,Pike Place Italian,ING-033,Cold Brew Concentrate,Beverages & Draft,Customer Return / Quality,48.13,fl oz,0.45,21.66
+WST-7510,09-03-2025,RST-107,Pacific Coast Diner,ING-002,Chicken Breast,Meat & Poultry,Prep Waste / Trimming,10.68,lbs,4.2,44.86
+WST-7511,10-09-2025,RST-109,Bayview Sushi & Raw,ING-030,Craft IPA Beer Keg,Beverages & Draft,Overcooked / Burnt,27.9,pints,1.1,30.69
+WST-7512,15-09-2025,RST-106,Sunset Strip Burgers,ING-033,Cold Brew Concentrate,Beverages & Draft,Prep Waste / Trimming,77.58,fl oz,0.45,34.91
+WST-7513,11-02-2025,RST-105,Loop Craft Kitchen,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,64.73,units,0.45,29.13
+WST-7514,06-01-2025,RST-103,Beacon Hill Cafe,ING-022,Spinach,Produce,Overcooked / Burnt,7.16,lbs,2.2,15.75
+WST-7515,27-03-2025,RST-100,The Downtown Bistro,ING-013,Unsalted Butter,Dairy & Cheese,Customer Return / Quality,19.56,lbs,3.8,74.33
+WST-7516,16-09-2025,RST-105,Loop Craft Kitchen,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,24.12,lbs,9.5,229.14
+WST-7517,06-10-2025,RST-109,Bayview Sushi & Raw,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,51.96,oz,0.6,31.18
+WST-7518,11-05-2025,RST-104,Midtown Smokehouse,ING-007,Jumbo Shrimp,Seafood,,11.96,lbs,12,143.52
+WST-7519,30-10-2025,RST-101,Uptown Flame & Grill,ING-031,House Red Wine,Beverages & Draft,Dropped / Damaged,153.76,glasses,2.5,384.4
+WST-7520,15-02-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,Overcooked / Burnt,7.39,lbs,0.9,6.65
+WST-7521,14-01-2025,RST-108,Soma Tapas Bar,ING-017,Idaho Russet Potatoes,Produce,Customer Return / Quality,33.62,lbs,0.85,28.58
+WST-7522,05-08-2025,RST-107,Pacific Coast Diner,ING-006,Atlantic Salmon Fillet,Seafood,Overcooked / Burnt,9.22,lbs,11.5,106.03
+WST-7523,22-04-2025,RST-106,Sunset Strip Burgers,ING-003,Ribeye Steak,Meat & Poultry,Dropped / Damaged,2.45,lbs,14.5,35.53
+WST-7524,31-10-2025,RST-107,Pacific Coast Diner,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,42.61,fl oz,0.15,6.39
+WST-7525,11-03-2025,RST-106,Sunset Strip Burgers,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,3.34,lbs,1.5,5.01
+WST-7526,23-05-2025,RST-106,Sunset Strip Burgers,ING-008,Yellowfin Tuna,Seafood,Customer Return / Quality,11.76,lbs,16,188.16
+WST-7527,07-02-2025,RST-103,Beacon Hill Cafe,ING-018,Roma Tomatoes,Produce,Expired / Spoiled,21.15,lbs,1.5,31.72
+WST-7528,11-02-2025,RST-107,Pacific Coast Diner,ING-026,Truffle Mayo,Condiments & Oils,Prep Waste / Trimming,33.72,fl oz,0.35,11.8
+WST-7529,14-10-2025,RST-101,Uptown Flame & Grill,ING-006,Atlantic Salmon Fillet,Seafood,Expired / Spoiled,9.27,lbs,11.5,106.6
+WST-7530,19-05-2025,RST-101,Uptown Flame & Grill,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,8.66,lbs,4.2,36.37
+WST-7531,29-12-2025,RST-110,Metro Garden Salad,ING-025,Tortilla Wraps,Bakery,Customer Return / Quality,22.83,units,0.25,5.71
+WST-7532,10-03-2025,RST-104,Midtown Smokehouse,ING-033,Cold Brew Concentrate,Beverages & Draft,Dropped / Damaged,38.41,fl oz,0.45,17.28
+WST-7533,22-02-2025,RST-101,Uptown Flame & Grill,ING-029,Balsamic Glaze,Condiments & Oils,Overcooked / Burnt,54.89,fl oz,0.5,27.45
+WST-7534,31-12-2025,RST-110,Metro Garden Salad,ING-019,Red Onions,Produce,Expired / Spoiled,20.97,lbs,0.9,18.87
+WST-7535,13-04-2025,RST-102,Harborfront Seafood,ING-016,Romaine Lettuce,Produce,Overcooked / Burnt,10.43,lbs,1.8,18.77
+WST-7536,26-12-2025,RST-104,Midtown Smokehouse,ING-030,Craft IPA Beer Keg,Beverages & Draft,Dropped / Damaged,30.29,pints,1.1,33.32
+WST-7537,19-10-2025,RST-102,Harborfront Seafood,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,11.45,lbs,16,183.2
+WST-7538,28-03-2025,RST-103,Beacon Hill Cafe,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,6.59,lbs,0.85,5.6
+WST-7539,11-03-2025,RST-108,Soma Tapas Bar,ING-031,House Red Wine,Beverages & Draft,Customer Return / Quality,84.54,glasses,2.5,211.35
+WST-7540,31-03-2025,RST-108,Soma Tapas Bar,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,4.15,lbs,6.5,26.98
+WST-7541,26-09-2025,RST-102,Harborfront Seafood,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,45.73,units,2.5,114.32
+WST-7542,13-08-2025,RST-106,Sunset Strip Burgers,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,2.46,lbs,5.1,12.55
+WST-7543,06-04-2025,RST-100,The Downtown Bistro,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,11.01,lbs,6,66.06
+WST-7544,01-07-2025,RST-101,Uptown Flame & Grill,ING-019,Red Onions,Produce,Prep Waste / Trimming,3.23,lbs,0.9,2.91
+WST-7545,20-02-2025,RST-103,Beacon Hill Cafe,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Expired / Spoiled,130.03,fl oz,0.4,52.01
+WST-7546,13-02-2025,RST-103,Beacon Hill Cafe,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,37.57,oz,0.6,22.54
+WST-7547,13-07-2025,RST-108,Soma Tapas Bar,ING-011,Mozzarella Cheese,Dairy & Cheese,Expired / Spoiled,24.17,lbs,4.5,108.77
+WST-7548,13-03-2025,RST-104,Midtown Smokehouse,ING-021,Wild Mushrooms,Produce,,7.47,lbs,6,44.82
+WST-7549,06-01-2025,RST-108,Soma Tapas Bar,ING-028,Soy Sauce,Condiments & Oils,Overcooked / Burnt,27,fl oz,0.15,4.05
+WST-7550,11-03-2025,RST-109,Bayview Sushi & Raw,ING-012,Heavy Cream,Dairy & Cheese,Dropped / Damaged,6.23,quarts,3.2,19.94
+WST-7551,21-09-2025,RST-104,Midtown Smokehouse,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,6.82,lbs,14.5,98.89
+WST-7552,21-08-2025,RST-104,Midtown Smokehouse,ING-027,Extra Virgin Olive Oil,Condiments & Oils,Overcooked / Burnt,100.47,fl oz,0.4,40.19
+WST-7553,01-01-2025,RST-100,The Downtown Bistro,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,23.8,lbs,6,142.8
+WST-7554,23-05-2025,RST-106,Sunset Strip Burgers,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,15.89,lbs,4.2,66.74
+WST-7555,04-05-2025,RST-109,Bayview Sushi & Raw,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,0.22,lbs,6,1.32
+WST-7556,25-06-2025,RST-106,Sunset Strip Burgers,ING-004,Pork Shoulder,Meat & Poultry,Overcooked / Burnt,9.34,lbs,3.8,35.49
+WST-7557,01-08-2025,RST-106,Sunset Strip Burgers,ING-005,Ground Turkey,Meat & Poultry,Overcooked / Burnt,3.07,lbs,4,12.28
+WST-7558,14-08-2025,RST-100,The Downtown Bistro,ING-014,Parmesan Reggiano,Dairy & Cheese,Expired / Spoiled,12.46,lbs,9.5,118.37
+WST-7559,02-04-2025,RST-102,Harborfront Seafood,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,19.62,lbs,4.2,82.4
+WST-7560,13-05-2025,RST-109,Bayview Sushi & Raw,ING-026,Truffle Mayo,Condiments & Oils,Customer Return / Quality,20.42,fl oz,0.35,7.15
+WST-7561,05-01-2025,RST-108,Soma Tapas Bar,ING-033,Cold Brew Concentrate,Beverages & Draft,Dropped / Damaged,48.76,fl oz,0.45,21.94
+WST-7562,06-07-2025,RST-102,Harborfront Seafood,ING-028,Soy Sauce,Condiments & Oils,Prep Waste / Trimming,54.95,fl oz,0.15,8.24
+WST-7563,15-07-2025,RST-104,Midtown Smokehouse,ING-018,Roma Tomatoes,Produce,Customer Return / Quality,7.28,lbs,1.5,10.92
+WST-7564,23-01-2025,RST-102,Harborfront Seafood,ING-009,Lobster Tail,Seafood,Dropped / Damaged,11.83,lbs,22,260.26
+WST-7565,04-02-2025,RST-100,The Downtown Bistro,ING-022,Spinach,Produce,Customer Return / Quality,30.72,lbs,2.2,67.58
+WST-7566,25-01-2025,RST-105,Loop Craft Kitchen,ING-032,Espresso Beans,Beverages & Draft,Customer Return / Quality,86.4,oz,0.6,51.84
+WST-7567,22-07-2025,RST-105,Loop Craft Kitchen,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,37.38,lbs,4.2,157
+WST-7568,10-03-2025,RST-102,Harborfront Seafood,ING-021,Wild Mushrooms,Produce,,19.32,lbs,6,115.92
+WST-7569,16-03-2025,RST-105,Loop Craft Kitchen,ING-011,Mozzarella Cheese,Dairy & Cheese,Expired / Spoiled,4.02,lbs,4.5,18.09
+WST-7570,25-08-2025,RST-111,Pike Place Italian,ING-012,Heavy Cream,Dairy & Cheese,Customer Return / Quality,6.04,quarts,3.2,19.33
+WST-7571,14-08-2025,RST-100,The Downtown Bistro,ING-009,Lobster Tail,Seafood,Expired / Spoiled,4.73,lbs,22,104.06
+WST-7572,10-11-2025,RST-108,Soma Tapas Bar,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,136.33,units,0.45,61.35
+WST-7573,05-06-2025,RST-104,Midtown Smokehouse,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,52.31,units,0.45,23.54
+WST-7574,26-01-2025,RST-107,Pacific Coast Diner,ING-021,Wild Mushrooms,Produce,Overcooked / Burnt,1.16,lbs,6,6.96
+WST-7575,16-10-2025,RST-102,Harborfront Seafood,ING-026,Truffle Mayo,Condiments & Oils,Expired / Spoiled,116.42,fl oz,0.35,40.75
+WST-7576,22-09-2025,RST-104,Midtown Smokehouse,ING-022,Spinach,Produce,Expired / Spoiled,6.25,lbs,2.2,13.75
+WST-7577,09-03-2025,RST-100,The Downtown Bistro,ING-005,Ground Turkey,Meat & Poultry,Expired / Spoiled,15.35,lbs,4,61.4
+WST-7578,26-07-2025,RST-105,Loop Craft Kitchen,ING-001,Prime Angus Beef Patty,Meat & Poultry,Dropped / Damaged,1,lbs,6.5,6.5
+WST-7579,23-11-2025,RST-101,Uptown Flame & Grill,ING-017,Idaho Russet Potatoes,Produce,Prep Waste / Trimming,10.31,lbs,0.85,8.76
+WST-7580,12-06-2025,RST-101,Uptown Flame & Grill,ING-022,Spinach,Produce,Customer Return / Quality,7.79,lbs,2.2,17.14
+WST-7581,23-11-2025,RST-111,Pike Place Italian,ING-030,Craft IPA Beer Keg,Beverages & Draft,Expired / Spoiled,53.02,pints,1.1,58.32
+WST-7582,04-12-2025,RST-111,Pike Place Italian,ING-031,House Red Wine,Beverages & Draft,Expired / Spoiled,46.05,glasses,2.5,115.12
+WST-7583,14-08-2025,RST-100,The Downtown Bistro,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,3.72,lbs,4.5,16.74
+WST-7584,05-04-2025,RST-109,Bayview Sushi & Raw,ING-030,Craft IPA Beer Keg,Beverages & Draft,Expired / Spoiled,11.22,pints,1.1,12.34
+WST-7585,29-07-2025,RST-104,Midtown Smokehouse,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,3.69,lbs,4.2,15.5
+WST-7586,20-11-2025,RST-103,Beacon Hill Cafe,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,9.04,lbs,4.2,37.97
+WST-7587,06-01-2025,RST-108,Soma Tapas Bar,ING-010,Aged Cheddar Slices,Dairy & Cheese,Expired / Spoiled,19.16,lbs,5.1,97.72
+WST-7588,29-05-2025,RST-104,Midtown Smokehouse,ING-030,Craft IPA Beer Keg,Beverages & Draft,Customer Return / Quality,11.07,pints,1.1,12.18
+WST-7589,22-01-2025,RST-105,Loop Craft Kitchen,ING-020,Fresh Basil,Produce,Prep Waste / Trimming,20.28,bunches,0.3,6.08
+WST-7590,18-01-2025,RST-107,Pacific Coast Diner,ING-013,Unsalted Butter,Dairy & Cheese,Expired / Spoiled,9.06,lbs,3.8,34.43
+WST-7591,23-05-2025,RST-108,Soma Tapas Bar,ING-032,Espresso Beans,Beverages & Draft,Overcooked / Burnt,97.48,oz,0.6,58.49
+WST-7592,22-10-2025,RST-104,Midtown Smokehouse,ING-001,Prime Angus Beef Patty,Meat & Poultry,Overcooked / Burnt,16.69,lbs,6.5,108.49
+WST-7593,31-01-2025,RST-108,Soma Tapas Bar,ING-015,Hass Avocado,Produce,Customer Return / Quality,1.68,units,1.25,2.1
+WST-7594,29-10-2025,RST-103,Beacon Hill Cafe,ING-009,Lobster Tail,Seafood,Expired / Spoiled,9.86,lbs,22,216.92
+WST-7595,26-02-2025,RST-110,Metro Garden Salad,ING-001,Prime Angus Beef Patty,Meat & Poultry,Expired / Spoiled,18.49,lbs,6.5,120.18
+WST-7596,19-06-2025,RST-107,Pacific Coast Diner,ING-010,Aged Cheddar Slices,Dairy & Cheese,Overcooked / Burnt,15.61,lbs,5.1,79.61
+WST-7597,21-07-2025,RST-104,Midtown Smokehouse,ING-020,Fresh Basil,Produce,Dropped / Damaged,4.96,bunches,0.3,1.49
+WST-7598,21-02-2025,RST-111,Pike Place Italian,ING-006,Atlantic Salmon Fillet,Seafood,Customer Return / Quality,7.36,lbs,11.5,84.64
+WST-7599,10-05-2025,RST-105,Loop Craft Kitchen,ING-033,Cold Brew Concentrate,Beverages & Draft,Freezer Malfunction / Bulk Spoilage,1765.48,fl oz,0.45,794.47
+WST-7600,26-11-2025,RST-100,The Downtown Bistro,ING-024,Sourdough Loaf,Bakery,Expired / Spoiled,50.7,units,2.5,126.75
+WST-7601,26-12-2025,RST-111,Pike Place Italian,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,4.02,lbs,14.5,58.29
+WST-7602,28-11-2025,RST-104,Midtown Smokehouse,ING-008,Yellowfin Tuna,Seafood,Prep Waste / Trimming,16.75,lbs,16,268
+WST-7603,20-08-2025,RST-111,Pike Place Italian,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,5.93,lbs,12,71.16
+WST-7604,06-07-2025,RST-106,Sunset Strip Burgers,ING-003,Ribeye Steak,Meat & Poultry,Prep Waste / Trimming,14.42,lbs,14.5,209.09
+WST-7605,15-12-2025,RST-111,Pike Place Italian,ING-011,Mozzarella Cheese,Dairy & Cheese,Expired / Spoiled,25.47,lbs,4.5,114.61
+WST-7606,06-10-2025,RST-110,Metro Garden Salad,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,5.42,quarts,3.2,17.34
+WST-7607,05-04-2025,RST-108,Soma Tapas Bar,ING-024,Sourdough Loaf,Bakery,Prep Waste / Trimming,55.37,units,2.5,138.42
+WST-7608,07-09-2025,RST-107,Pacific Coast Diner,ING-014,Parmesan Reggiano,Dairy & Cheese,Dropped / Damaged,13.46,lbs,9.5,127.87
+WST-7609,27-04-2025,RST-110,Metro Garden Salad,ING-020,Fresh Basil,Produce,Prep Waste / Trimming,5.72,bunches,0.3,1.72
+WST-7610,16-06-2025,RST-101,Uptown Flame & Grill,ING-001,Prime Angus Beef Patty,Meat & Poultry,Prep Waste / Trimming,2.89,lbs,6.5,18.79
+WST-7611,24-06-2025,RST-103,Beacon Hill Cafe,ING-018,Roma Tomatoes,Produce,Prep Waste / Trimming,11.07,lbs,1.5,16.61
+WST-7612,12-07-2025,RST-107,Pacific Coast Diner,ING-022,Spinach,Produce,Expired / Spoiled,20.69,lbs,2.2,45.52
+WST-7613,12-03-2025,RST-104,Midtown Smokehouse,ING-004,Pork Shoulder,Meat & Poultry,Prep Waste / Trimming,10.21,lbs,3.8,38.8
+WST-7614,16-08-2025,RST-102,Harborfront Seafood,ING-031,House Red Wine,Beverages & Draft,Overcooked / Burnt,74.86,glasses,2.5,187.15
+WST-7615,03-12-2025,RST-105,Loop Craft Kitchen,ING-010,Aged Cheddar Slices,Dairy & Cheese,Prep Waste / Trimming,0.57,lbs,5.1,2.91
+WST-7616,20-01-2025,RST-106,Sunset Strip Burgers,ING-030,Craft IPA Beer Keg,Beverages & Draft,Prep Waste / Trimming,29.57,pints,1.1,32.53
+WST-7617,18-09-2025,RST-108,Soma Tapas Bar,ING-023,Brioche Burger Buns,Bakery,Expired / Spoiled,20.15,units,0.45,9.07
+WST-7618,13-05-2025,RST-109,Bayview Sushi & Raw,ING-007,Jumbo Shrimp,Seafood,Overcooked / Burnt,10.49,lbs,12,125.88
+WST-7619,11-01-2025,RST-107,Pacific Coast Diner,ING-009,Lobster Tail,Seafood,Dropped / Damaged,17.36,lbs,22,381.92
+WST-7620,15-02-2025,RST-105,Loop Craft Kitchen,ING-001,Prime Angus Beef Patty,Meat & Poultry,Overcooked / Burnt,17.94,lbs,6.5,116.61
+WST-7621,22-05-2025,RST-105,Loop Craft Kitchen,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,4.11,lbs,14.5,59.6
+WST-7622,14-08-2025,RST-105,Loop Craft Kitchen,ING-025,Tortilla Wraps,Bakery,Expired / Spoiled,31.61,units,0.25,7.9
+WST-7623,25-06-2025,RST-106,Sunset Strip Burgers,ING-022,Spinach,Produce,Prep Waste / Trimming,20.16,lbs,2.2,44.35
+WST-7624,13-06-2025,RST-110,Metro Garden Salad,ING-014,Parmesan Reggiano,Dairy & Cheese,Prep Waste / Trimming,14.74,lbs,9.5,140.03
+WST-7625,04-06-2025,RST-100,The Downtown Bistro,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,6.9,lbs,6,41.4
+WST-7626,02-05-2025,RST-102,Harborfront Seafood,ING-021,Wild Mushrooms,Produce,Expired / Spoiled,11.24,lbs,6,67.44
+WST-7627,30-05-2025,RST-105,Loop Craft Kitchen,ING-032,Espresso Beans,Beverages & Draft,Customer Return / Quality,60.93,oz,0.6,36.56
+WST-7628,21-07-2025,RST-111,Pike Place Italian,ING-011,Mozzarella Cheese,Dairy & Cheese,Prep Waste / Trimming,2.43,lbs,4.5,10.94
+WST-7629,27-10-2025,RST-100,The Downtown Bistro,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,1.42,lbs,0.85,1.21
+WST-7630,03-06-2025,RST-108,Soma Tapas Bar,ING-032,Espresso Beans,Beverages & Draft,Overcooked / Burnt,88.87,oz,0.6,53.32
+WST-7631,28-11-2025,RST-104,Midtown Smokehouse,ING-003,Ribeye Steak,Meat & Poultry,Expired / Spoiled,3.86,lbs,14.5,55.97
+WST-7632,26-02-2025,RST-105,Loop Craft Kitchen,ING-019,Red Onions,Produce,Expired / Spoiled,12.4,lbs,0.9,11.16
+WST-7633,04-01-2025,RST-109,Bayview Sushi & Raw,ING-033,Cold Brew Concentrate,Beverages & Draft,Expired / Spoiled,71.42,fl oz,0.45,32.14
+WST-7634,22-08-2025,RST-104,Midtown Smokehouse,ING-022,Spinach,Produce,Overcooked / Burnt,20.7,lbs,2.2,45.54
+WST-7635,24-05-2025,RST-105,Loop Craft Kitchen,ING-012,Heavy Cream,Dairy & Cheese,Expired / Spoiled,9.55,quarts,3.2,30.56
+WST-7636,22-08-2025,RST-101,Uptown Flame & Grill,ING-008,Yellowfin Tuna,Seafood,Expired / Spoiled,8.05,lbs,16,128.8
+WST-7637,07-09-2025,RST-110,Metro Garden Salad,ING-003,Ribeye Steak,Meat & Poultry,Dropped / Damaged,25.1,lbs,14.5,363.95
+WST-7638,10-05-2025,RST-101,Uptown Flame & Grill,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,16.11,lbs,4.2,67.66
+WST-7639,23-03-2025,RST-111,Pike Place Italian,ING-017,Idaho Russet Potatoes,Produce,Customer Return / Quality,15.91,lbs,0.85,13.52
+WST-7640,14-04-2025,RST-105,Loop Craft Kitchen,ING-016,Romaine Lettuce,Produce,Prep Waste / Trimming,25.38,lbs,1.8,45.68
+WST-7641,01-10-2025,RST-110,Metro Garden Salad,ING-007,Jumbo Shrimp,Seafood,Expired / Spoiled,13.46,lbs,12,161.52
+WST-7642,11-07-2025,RST-110,Metro Garden Salad,ING-015,Hass Avocado,Produce,Overcooked / Burnt,2.46,units,1.25,3.08
+WST-7643,12-06-2025,RST-111,Pike Place Italian,ING-028,Soy Sauce,Condiments & Oils,Dropped / Damaged,116.16,fl oz,0.15,17.42
+WST-7644,27-09-2025,RST-105,Loop Craft Kitchen,ING-001,Prime Angus Beef Patty,Meat & Poultry,,21.47,lbs,6.5,139.56
+WST-7645,17-11-2025,RST-102,Harborfront Seafood,ING-005,Ground Turkey,Meat & Poultry,Overcooked / Burnt,10.6,lbs,4,42.4
+WST-7646,21-12-2025,RST-110,Metro Garden Salad,ING-030,Craft IPA Beer Keg,Beverages & Draft,Customer Return / Quality,64.22,pints,1.1,70.64
+WST-7647,25-04-2025,RST-103,Beacon Hill Cafe,ING-006,Atlantic Salmon Fillet,Seafood,Expired / Spoiled,1.42,lbs,11.5,16.33
+WST-7648,03-04-2025,RST-109,Bayview Sushi & Raw,ING-031,House Red Wine,Beverages & Draft,Dropped / Damaged,30.6,glasses,2.5,76.5
+WST-7649,30-05-2025,RST-108,Soma Tapas Bar,ING-012,Heavy Cream,Dairy & Cheese,Prep Waste / Trimming,15.46,quarts,3.2,49.47
+WST-7650,13-05-2025,RST-105,Loop Craft Kitchen,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,12.48,lbs,0.85,10.61
+WST-7638,10-05-2025,RST-101,Uptown Flame & Grill,ING-002,Chicken Breast,Meat & Poultry,Dropped / Damaged,16.11,lbs,4.2,67.66
+WST-7221,01-12-2025,RST-103,Beacon Hill Cafe,ING-016,Romaine Lettuce,Produce,Dropped / Damaged,3.55,lbs,1.8,6.39
+WST-7429,21-08-2025,RST-101,Uptown Flame & Grill,ING-009,Lobster Tail,Seafood,Customer Return / Quality,19.98,lbs,22,439.56
+WST-7327,05-11-2025,RST-101,Uptown Flame & Grill,ING-021,Wild Mushrooms,Produce,Prep Waste / Trimming,16.76,lbs,6,100.56
+WST-7073,08-05-2025,RST-107,Pacific Coast Diner,ING-021,Wild Mushrooms,Produce,Overcooked / Burnt,10.29,lbs,6,61.74
+WST-7517,06-10-2025,RST-109,Bayview Sushi & Raw,ING-032,Espresso Beans,Beverages & Draft,Prep Waste / Trimming,51.96,oz,0.6,31.18
+WST-7182,30-05-2025,RST-107,Pacific Coast Diner,ING-017,Idaho Russet Potatoes,Produce,Expired / Spoiled,1.28,lbs,0.85,1.09
+WST-7132,10-10-2025,RST-109,Bayview Sushi & Raw,ING-023,Brioche Burger Buns,Bakery,Dropped / Damaged,148.35,units,0.45,66.76
+WST-7232,06-10-2025,RST-111,Pike Place Italian,ING-029,Balsamic Glaze,Condiments & Oils,Prep Waste / Trimming,52.73,fl oz,0.5,26.36
+WST-7278,02-12-2025,RST-109,Bayview Sushi & Raw,ING-033,Cold Brew Concentrate,Beverages & Draft,Customer Return / Quality,62.74,fl oz,0.45,28.23
+WST-7608,07-09-2025,RST-107,Pacific Coast Diner,ING-014,Parmesan Reggiano,Dairy & Cheese,Dropped / Damaged,13.46,lbs,9.5,127.87
+WST-7282,28-06-2025,RST-107,Pacific Coast Diner,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,21.05,lbs,4.2,88.41
+WST-7250,15-07-2025,RST-103,Beacon Hill Cafe,ING-002,Chicken Breast,Meat & Poultry,Expired / Spoiled,13.16,lbs,4.2,55.27
+WST-7082,15-02-2025,RST-100,The Downtown Bistro,ING-019,Red Onions,Produce,,15.44,lbs,0.9,13.9
+WST-7616,20-01-2025,RST-106,Sunset Strip Burgers,ING-030,Craft IPA Beer Keg,Beverages & Draft,Prep Waste / Trimming,29.57,pints,1.1,32.53
